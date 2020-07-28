@@ -8,11 +8,11 @@ The exact specification of this design are strongly related to the battery used 
 
 This is an open source hardware (OSHW) project, licensed under the Creative Commons Attribution Share Alike 4.0 International license.
  
-For more information read the LICENSE file in the master branch, and visit [https://creativecommons.org/] (https://creativecommons.org/)
+For more information read the LICENSE file in the master branch, and visit [creativecommons.org](https://creativecommons.org/)
 
 ## Specifications 
 
-Nominal ratings and parameters: 
+#### Nominal ratings and parameters: 
 
 Input Voltage: 5V
 
@@ -24,16 +24,17 @@ Charge Current: 1A MAX (Adjustable)
 
 Output Current: 1A MAX
 
-Features:
+#### Features:
 
-The features below are based on the full BOM design(except for NC components), changing values of components and / or unlacing components may cause other behavior.
+The features below are based on the full BOM (except for NC components), changing values of components and / or unplacing components may cause other behaviors.
 
 - Input connectors: USB Type-B Micro, solder pads.
 
 - Output connectors: USB Type-A female, solder pads. 
 
 - Battery cell protections: Overcharge voltage, overdischarge voltage, overcharge current, overdischarge current, over-temperature operation, ESD protection and reverse polarity protection.
-*THIS DOESN'T MEAN NOTHING CAN GO WRONG, ALWAYS MAKE SURE YOU CONNECTED EVERYTHING CORRECTLY, BATTERIES CAN EXPLODE, BURN AND HARM YOU IF NOT PROPERLY USED.
+
+** THIS DOESN'T MEAN NOTHING CAN GO WRONG, ALWAYS MAKE SURE YOU CONNECTED EVERYTHING CORRECTLY, BATTERIES CAN EXPLODE, BURN AND HARM YOU IF NOT PROPERLY USED **
 
 - Adjustable charge current by changing resistor value (R5)
 
