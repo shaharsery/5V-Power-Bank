@@ -44,7 +44,7 @@ The features below are based on the full BOM (except for NC components), changin
 	
 - Blue LED to indicate input power to the PCB. 
 
-  Both LEDs will turn off when the power bank is removed from the wall adapter.
+Both LEDs will turn off when the power bank is removed from the wall adapter.
 
 
 ## Notes
