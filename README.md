@@ -55,17 +55,17 @@ Both LEDs will turn off when the power bank is removed from the wall adapter.
 
 \- The design was created as an entry level design project, it was designed to allow for others to learn, work with and create.
  I wanted to keep the design pretty simple and to make it 'hand-solderable', that's why all passive components' packages are 0603 or larger and all ICs have lead pins,
- that way all components can be hand soldered using a solder iron and some basic skills.
+ that way all components can be soldered using a solder iron and some basic skills.
  
  \- Through the design process I was aiming for the use of 18650 Li-ion battery cells, though it should work with any Li-ion / Li-Pol 3.7V battery, I plan on testing other battery cell packages once I'll have the PCBs for prototyping.
  
- \- Though all the components used in this project can be easly sourced from Digi-Key and Mouser, I tried to use componnets that can also be sourced through LCSC, Ebay or Aliexpress, try to find a realiable distributor that suits your costs and needs.
+ \- Though all the components used in this project can be easily sourced from Digi-Key and Mouser, I tried to use components that can also be sourced through LCSC, Ebay or AliExpress, try to find a reliable distributor that suits your costs and needs.
  
- \- A lot of modifications can be made to reduce the cost of this design, consider the necessety of components according to your own use.
+ \- A lot of modifications can be made to reduce the cost of this design, consider the necessity of components according to your own use.
  
- \- I know some people would prefer the input connector to be Type-C, I might add another version of this design with Type-C connecotr later.
+ \- I know some people would prefer the input connector to be Type-C, I might add another version of this design with Type-C connector later.
  
- \- I plan on creating 2 types of PCBs, one roughly the dimensions of a 18650 package, and one compact deisgn that might be more suitable for flat battery packages.
+ \- I plan on creating 2 types of PCBs, one roughly the dimensions of a 18650 package, and one compact design that might be more suitable for flat battery packages.
  
  \- Please feel free to contact me if you have any question or remark, or if you found any mistake. I'll try to reply as fast as I can but I can't promise anything.
  
