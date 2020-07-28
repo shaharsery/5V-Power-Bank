@@ -54,6 +54,16 @@ Both LEDs will turn off when the power bank is removed from the wall adapter.
 \- The design was created as an entry level design project, it was designed to allow for others to learn, work with and create.
  I wanted to keep the design pretty simple and to make it 'hand-solderable', that's why all passive components' packages are 0603 or larger and all ICs have lead pins,
  that way all components can be hand soldered using a solder iron and some basic skills.
+ 
+ \- Through the design process I was aiming for the use of 18650 Li-ion battery cells, for this project though it can work with any Li-ion / Li-Pol 3.7V battery, I plan on testing other battery cell packages once I'll have the PCBs for prototyping.
+ 
+ \- I know some people would prefer the input connector to be Type-C, I might add another version of this design with Type-C connecotr later.
+ 
+ \- I plan on creating 2 types of PCBs, one roughly the dimensions of a 18650 package, and one compact deisgn that might be more suitable for flat battery packages.
+ 
+ \- Please feel free to contact me if you have any question or remark, or if you found any mistake. I'll try to answer as fast as I can but I can't promise anything.
+ 
+ \- Keep being awesome and help the OSHW community grow!
 
 ## Disclaimer
 
