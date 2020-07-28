@@ -2,7 +2,7 @@
 
 This project is a 5V rechargeable power bank, intended for use with 1 Li-ion / Li-Pol 3.7V rechargeable battery cell.
 
-The design supports up to 1A of charge and output currents.
+The design supports up to 1A of charge current and up to 1A of output current.
 
 The exact specification of this design are strongly related to the battery used and other elements such as components used, enclosure, wall adapter etc. 
 
@@ -28,7 +28,7 @@ Output Current: 1A MAX
 
 #### Features:
 
-The features below are based on the full BOM (except for NC components), changing values of components and / or unplacing components may cause other behaviors.
+The features below are based on the full BOM (without NC components), changing values of components and / or unplacing components may cause unintended behaviors.
 
 \- Input connectors: USB Type-B Micro, solder pads.
 
@@ -48,6 +48,8 @@ The features below are based on the full BOM (except for NC components), changin
 
 Both LEDs will turn off when the power bank is removed from the wall adapter.
 
+\- If the device is connected to a wall adapter a battery and a load, the load will be powered from the wall adapter and the battery will keep on charging, this might not work properly if the wall adapter rated current is not high enough (for MAX currents, the wall adapter should be capable of driving at least 2A)
+
 
 ## Notes
 
@@ -55,13 +57,17 @@ Both LEDs will turn off when the power bank is removed from the wall adapter.
  I wanted to keep the design pretty simple and to make it 'hand-solderable', that's why all passive components' packages are 0603 or larger and all ICs have lead pins,
  that way all components can be hand soldered using a solder iron and some basic skills.
  
- \- Through the design process I was aiming for the use of 18650 Li-ion battery cells, for this project though it can work with any Li-ion / Li-Pol 3.7V battery, I plan on testing other battery cell packages once I'll have the PCBs for prototyping.
+ \- Through the design process I was aiming for the use of 18650 Li-ion battery cells, though it should work with any Li-ion / Li-Pol 3.7V battery, I plan on testing other battery cell packages once I'll have the PCBs for prototyping.
+ 
+ \- Though all the components used in this project can be easly sourced from Digi-Key and Mouser, I tried to use componnets that can also be sourced through LCSC, Ebay or Aliexpress, try to find a realiable distributor that suits your costs and needs.
+ 
+ \- A lot of modifications can be made to reduce the cost of this design, consider the necessety of components according to your own use.
  
  \- I know some people would prefer the input connector to be Type-C, I might add another version of this design with Type-C connecotr later.
  
  \- I plan on creating 2 types of PCBs, one roughly the dimensions of a 18650 package, and one compact deisgn that might be more suitable for flat battery packages.
  
- \- Please feel free to contact me if you have any question or remark, or if you found any mistake. I'll try to answer as fast as I can but I can't promise anything.
+ \- Please feel free to contact me if you have any question or remark, or if you found any mistake. I'll try to reply as fast as I can but I can't promise anything.
  
  \- Keep being awesome and help the OSHW community grow!
 
