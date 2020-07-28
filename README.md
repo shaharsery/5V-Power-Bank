@@ -10,6 +10,8 @@ This is an open source hardware (OSHW) project, licensed under the Creative Comm
  
 For more information read the LICENSE file in the master branch, and visit [creativecommons.org](https://creativecommons.org/)
 
+**Please note that this project has not yet been manufactured or tested! USE AT YOUR OWN RISK!**
+
 ## Specifications 
 
 #### Nominal ratings and parameters: 
@@ -51,4 +53,10 @@ Both LEDs will turn off when the power bank is removed from the wall adapter.
 
 \- The design was created as an entry level design project, it was designed to allow for others to learn, work with and create. I wanted to keep the design pretty simple and to mkae it 'hand-solderable', that's why all passive components' packages are 0603 or larger and all ICs have lead pins that could be hand soldered using a solder iron and some basic skills.
 
-**Please take caution when using this desing, at this stage it has not been tested at all and may not work and even create damage or harm you, by using this design you are doing it at your own risk**
+## Disclaimer
+
+**Before you work with this project in any way, please make sure you understand what you are doing, electronics and batteries can be harmful and danguerues when not used properly.** 
+
+**By using this project in any way you agree that you are using it at your own risk and you can't hold any one else accountable for any damage or harm that might be caused due to your use of this project.**
+
+**Please note that this project has not yet been manufactured or tested! USE AT YOUR OWN RISK!**
