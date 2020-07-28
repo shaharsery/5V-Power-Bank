@@ -44,9 +44,11 @@ The features below are based on the full BOM (except for NC components), changin
 	
 	* Blue LED to indicate input power to the PCB. 
 
-Both LEDs will turn off when the power bank is removed from the wall adapter.
+	Both LEDs will turn off when the power bank is removed from the wall adapter.
 
 
 ## Notes
 
-- Pay close attention to the battery you choose, read more about batteries at ~~~~~~~~~~~~~
+- The design was created as an entry level design project, it was design to allow for others to learn, work with and create, beacause I wanted it to be pretty easy to hand solder all passive components' packages are 0603 or greater and all ICs have leads that could be hand soldered using a solder iron and some basic skills.
+
+- 
