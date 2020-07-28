@@ -39,12 +39,12 @@ The features below are based on the full BOM (except for NC components), changin
 \- Adjustable charge current by changing resistor value (R5)
 
 \- 2 indication LEDs:
-	
-	* Green LED to indicate charge completed (the green LED will turn off once the battery cell entered 2nd charge cycle).
-	
-	* Blue LED to indicate input power to the PCB. 
 
-	Both LEDs will turn off when the power bank is removed from the wall adapter.
+- Green LED to indicate charge completed (the green LED will turn off once the battery cell entered 2nd charge cycle).
+	
+- Blue LED to indicate input power to the PCB. 
+
+  Both LEDs will turn off when the power bank is removed from the wall adapter.
 
 
 ## Notes
