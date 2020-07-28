@@ -28,17 +28,17 @@ Output Current: 1A MAX
 
 The features below are based on the full BOM (except for NC components), changing values of components and / or unplacing components may cause other behaviors.
 
-- Input connectors: USB Type-B Micro, solder pads.
+\- Input connectors: USB Type-B Micro, solder pads.
 
-- Output connectors: USB Type-A female, solder pads. 
+\- Output connectors: USB Type-A female, solder pads. 
 
-- Battery cell protections: Overcharge voltage, overdischarge voltage, overcharge current, overdischarge current, over-temperature operation, ESD protection and reverse polarity protection.
+\- Battery cell protections: Overcharge voltage, overdischarge voltage, overcharge current, overdischarge current, over-temperature operation, ESD protection and reverse polarity protection.
 
 ** THIS DOESN'T MEAN NOTHING CAN GO WRONG, ALWAYS MAKE SURE YOU CONNECTED EVERYTHING CORRECTLY, BATTERIES CAN EXPLODE, BURN AND HARM YOU IF NOT PROPERLY USED **
 
-- Adjustable charge current by changing resistor value (R5)
+\- Adjustable charge current by changing resistor value (R5)
 
-- 2 indication LEDs:
+\- 2 indication LEDs:
 	
 	* Green LED to indicate charge completed (the green LED will turn off once the battery cell entered 2nd charge cycle).
 	
@@ -49,6 +49,6 @@ The features below are based on the full BOM (except for NC components), changin
 
 ## Notes
 
-- The design was created as an entry level design project, it was design to allow for others to learn, work with and create, beacause I wanted it to be pretty easy to hand solder all passive components' packages are 0603 or greater and all ICs have leads that could be hand soldered using a solder iron and some basic skills.
+\- The design was created as an entry level design project, it was designed to allow for others to learn, work with and create. I wanted to keep the design pretty simple and to mkae it 'hand-solderable', that's why all passive components' packages are 0603 or larger and all ICs have lead pins that could be hand soldered using a solder iron and some basic skills.
 
-- 
+**Please take caution when using this desing, at this stage it has not been tested at all and may not work and even create damage or harm you, by using this design you are doing it at your own risk**
