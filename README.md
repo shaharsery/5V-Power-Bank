@@ -51,11 +51,13 @@ Both LEDs will turn off when the power bank is removed from the wall adapter.
 
 ## Notes
 
-\- The design was created as an entry level design project, it was designed to allow for others to learn, work with and create. I wanted to keep the design pretty simple and to mkae it 'hand-solderable', that's why all passive components' packages are 0603 or larger and all ICs have lead pins that could be hand soldered using a solder iron and some basic skills.
+\- The design was created as an entry level design project, it was designed to allow for others to learn, work with and create.
+ I wanted to keep the design pretty simple and to make it 'hand-solderable', that's why all passive components' packages are 0603 or larger and all ICs have lead pins,
+ that way all components can be hand soldered using a solder iron and some basic skills.
 
 ## Disclaimer
 
-**Before you work with this project in any way, please make sure you understand what you are doing, electronics and batteries can be harmful and danguerues when not used properly.** 
+**Before you work with this project in any way, please make sure you understand what you are doing, electronics and batteries can be harmful and dangerous when not used properly.** 
 
 **By using this project in any way you agree that you are using it at your own risk and you can't hold any one else accountable for any damage or harm that might be caused due to your use of this project.**
 
