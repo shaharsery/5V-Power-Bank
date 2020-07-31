@@ -32,7 +32,7 @@ The features below are based on the full BOM (without NC components), changing v
 
 \- Input connectors: USB Type-B Micro, solder pads.
 
-\- Output connectors: USB Type-A female, solder pads. 
+\- Output connectors: USB Type-A port, solder pads. 
 
 \- Battery cell protections: Overcharge voltage, overdischarge voltage, overcharge current, overdischarge current, over-temperature operation, ESD protection and reverse polarity protection.
 
