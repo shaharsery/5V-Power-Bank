@@ -1,4 +1,4 @@
-# 5V rechargeable power bank
+# 5V rechargeable power bank (Work in progress)
 
 This project is a 5V rechargeable power bank, intended for use with 1 Li-ion / Li-Pol 3.7V rechargeable battery cell.
 
