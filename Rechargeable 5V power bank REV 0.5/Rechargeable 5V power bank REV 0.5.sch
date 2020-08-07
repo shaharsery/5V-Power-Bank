@@ -274,69 +274,6 @@ Wire Wire Line
 	3550 8400 3550 8600
 Wire Wire Line
 	3550 7750 3550 7900
-$Comp
-L RESISTORS:RESC_10K_0603 R15
-U 1 1 5F32E18B
-P 3550 7650
-AR Path="/5F32E18B" Ref="R15"  Part="1" 
-AR Path="/5F0383B8/5F32E18B" Ref="R?"  Part="1" 
-F 0 "R15" H 3500 7500 50  0000 C CNN
-F 1 "RESC_10K_0603" H 4500 8550 50  0001 L CNN
-F 2 "RESISTORS:RESC_0603_HandSolder" H 3600 8850 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3550 7650 50  0001 C CNN
-F 4 "10K" H 3450 7800 50  0000 C CNN "VAL"
-F 5 "RNCP0603FTD10K0" H 3600 8850 50  0001 C CNN "Manufacturer_PN"
-F 6 "Stackpole Electronics Inc" H 3800 8750 50  0001 C CNN "Manufacturer"
-F 7 "0.1" H 3600 8750 50  0001 C CNN "Price for 1"
-F 8 "0.02730" H 3800 8750 50  0001 C CNN "Price for 100"
-F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3600 8850 50  0001 C CNN "Link"
-F 10 "N/A" H 3350 8750 50  0001 C CNN "ASSEMBLY"
-F 11 "N/A" H 3400 8850 50  0001 C CNN "BOM_IGNORE"
-	1    3550 7650
-	-1   0    0    1   
-$EndComp
-$Comp
-L RESISTORS:RESC_10K_0603 R18
-U 1 1 5F32E199
-P 3900 8300
-AR Path="/5F32E199" Ref="R18"  Part="1" 
-AR Path="/5F0383B8/5F32E199" Ref="R?"  Part="1" 
-F 0 "R18" H 3850 8150 50  0000 C CNN
-F 1 "RESC_10K_0603" H 4850 9200 50  0001 L CNN
-F 2 "RESISTORS:RESC_0603_HandSolder" H 3950 9500 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3900 8300 50  0001 C CNN
-F 4 "10K" H 3800 8450 50  0000 C CNN "VAL"
-F 5 "RNCP0603FTD10K0" H 3950 9500 50  0001 C CNN "Manufacturer_PN"
-F 6 "Stackpole Electronics Inc" H 4150 9400 50  0001 C CNN "Manufacturer"
-F 7 "0.1" H 3950 9400 50  0001 C CNN "Price for 1"
-F 8 "0.02730" H 4150 9400 50  0001 C CNN "Price for 100"
-F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3950 9500 50  0001 C CNN "Link"
-F 10 "N/A" H 3700 9400 50  0001 C CNN "ASSEMBLY"
-F 11 "N/A" H 3750 9500 50  0001 C CNN "BOM_IGNORE"
-	1    3900 8300
-	-1   0    0    1   
-$EndComp
-$Comp
-L RESISTORS:RESC_10K_0603 R17
-U 1 1 5F32E1A7
-P 3550 8300
-AR Path="/5F32E1A7" Ref="R17"  Part="1" 
-AR Path="/5F0383B8/5F32E1A7" Ref="R?"  Part="1" 
-F 0 "R17" H 3500 8150 50  0000 C CNN
-F 1 "RESC_10K_0603" H 4500 9200 50  0001 L CNN
-F 2 "RESISTORS:RESC_0603_HandSolder" H 3600 9500 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3550 8300 50  0001 C CNN
-F 4 "10K" H 3450 8450 50  0000 C CNN "VAL"
-F 5 "RNCP0603FTD10K0" H 3600 9500 50  0001 C CNN "Manufacturer_PN"
-F 6 "Stackpole Electronics Inc" H 3800 9400 50  0001 C CNN "Manufacturer"
-F 7 "0.1" H 3600 9400 50  0001 C CNN "Price for 1"
-F 8 "0.02730" H 3800 9400 50  0001 C CNN "Price for 100"
-F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3600 9500 50  0001 C CNN "Link"
-F 10 "N/A" H 3350 9400 50  0001 C CNN "ASSEMBLY"
-F 11 "N/A" H 3400 9500 50  0001 C CNN "BOM_IGNORE"
-	1    3550 8300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4600 8000 4350 8000
 Wire Wire Line
@@ -550,7 +487,7 @@ Boost converter 3.7 [V] -> 5 [V]\n
 Text Notes 950  6850 0    200  ~ 0
 Connectors
 Text Notes 5750 950  0    200  ~ 0
-Rechargable 5[V] power bank
+Rechargeable 5V power bank
 Text Notes 6400 6800 0    200  ~ 0
 Test points
 Wire Notes Line
@@ -571,7 +508,7 @@ U 1 1 5F32E37B
 P 3900 7650
 AR Path="/5F32E37B" Ref="R16"  Part="1" 
 AR Path="/5F0383B8/5F32E37B" Ref="R?"  Part="1" 
-F 0 "R16" H 3850 7500 50  0000 C CNN
+F 0 "R16" H 3800 7500 50  0000 C CNN
 F 1 "RESC_10K_0603" H 4850 8550 50  0001 L CNN
 F 2 "RESISTORS:RESC_0603_HandSolder" H 3950 8850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3900 7650 50  0001 C CNN
@@ -581,16 +518,14 @@ F 6 "Stackpole Electronics Inc" H 4150 8750 50  0001 C CNN "Manufacturer"
 F 7 "0.1" H 3950 8750 50  0001 C CNN "Price for 1"
 F 8 "0.02730" H 4150 8750 50  0001 C CNN "Price for 100"
 F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3950 8850 50  0001 C CNN "Link"
-F 10 "N/A" H 3700 8750 50  0001 C CNN "ASSEMBLY"
-F 11 "N/A" H 3750 8850 50  0001 C CNN "BOM_IGNORE"
+F 10 "NO" H 3700 8750 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 3750 8850 50  0001 C CNN "BOM_IGNORE"
 	1    3900 7650
 	-1   0    0    1   
 $EndComp
 Text Notes 3850 7850 0    100  ~ 0
 X\nNC\n
 Text Notes 3500 7850 0    100  ~ 0
-X\nNC\n
-Text Notes 3500 8500 0    100  ~ 0
 X\nNC\n
 Text Notes 3850 8500 0    100  ~ 0
 X\nNC\n
@@ -4133,4 +4068,69 @@ F 11 "N/A" H 6850 5250 50  0001 C CNN "BOM_IGNORE"
 	1    6300 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L RESISTORS:RESC_10K_0603 R15
+U 1 1 5F2ED0DD
+P 3550 7650
+AR Path="/5F2ED0DD" Ref="R15"  Part="1" 
+AR Path="/5F0383B8/5F2ED0DD" Ref="R?"  Part="1" 
+F 0 "R15" H 3450 7500 50  0000 C CNN
+F 1 "RESC_10K_0603" H 4500 8550 50  0001 L CNN
+F 2 "RESISTORS:RESC_0603_HandSolder" H 3600 8850 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3550 7650 50  0001 C CNN
+F 4 "10K" H 3450 7800 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 3600 8850 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 3800 8750 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3600 8750 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 3800 8750 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3600 8850 50  0001 C CNN "Link"
+F 10 "NO" H 3350 8750 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 3400 8850 50  0001 C CNN "BOM_IGNORE"
+	1    3550 7650
+	-1   0    0    1   
+$EndComp
+$Comp
+L RESISTORS:RESC_10K_0603 R17
+U 1 1 5F2EE1BA
+P 3550 8300
+AR Path="/5F2EE1BA" Ref="R17"  Part="1" 
+AR Path="/5F0383B8/5F2EE1BA" Ref="R?"  Part="1" 
+F 0 "R17" H 3450 8150 50  0000 C CNN
+F 1 "RESC_10K_0603" H 4500 9200 50  0001 L CNN
+F 2 "RESISTORS:RESC_0603_HandSolder" H 3600 9500 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3550 8300 50  0001 C CNN
+F 4 "10K" H 3450 8450 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 3600 9500 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 3800 9400 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3600 9400 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 3800 9400 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3600 9500 50  0001 C CNN "Link"
+F 10 "NO" H 3350 9400 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 3400 9500 50  0001 C CNN "BOM_IGNORE"
+	1    3550 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L RESISTORS:RESC_10K_0603 R18
+U 1 1 5F2EEA92
+P 3900 8300
+AR Path="/5F2EEA92" Ref="R18"  Part="1" 
+AR Path="/5F0383B8/5F2EEA92" Ref="R?"  Part="1" 
+F 0 "R18" H 3800 8150 50  0000 C CNN
+F 1 "RESC_10K_0603" H 4850 9200 50  0001 L CNN
+F 2 "RESISTORS:RESC_0603_HandSolder" H 3950 9500 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3900 8300 50  0001 C CNN
+F 4 "10K" H 3800 8450 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 3950 9500 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 4150 9400 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3950 9400 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 4150 9400 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3950 9500 50  0001 C CNN "Link"
+F 10 "NO" H 3700 9400 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 3750 9500 50  0001 C CNN "BOM_IGNORE"
+	1    3900 8300
+	-1   0    0    1   
+$EndComp
+Text Notes 3500 8500 0    100  ~ 0
+X\nNC\n
 $EndSCHEMATC
