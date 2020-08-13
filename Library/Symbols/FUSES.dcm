@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTC_POLYFUSE_8V_2A_1812
+D Polymeric PTC Resettable Fuse 8V 2A Ih Surface Mount 1812 (4532 Metric), Concave
+K Polyfuse fuse PTC
+F https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf
+$ENDCMP
+#
+$CMP Polyfuse
+D Resettable fuse, polymeric positive temperature coefficient
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~
+$ENDCMP
+#
+$CMP Polyfuse_Small
+D Resettable fuse, polymeric positive temperature coefficient, small symbol
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~
+$ENDCMP
+#
+#End Doc Library

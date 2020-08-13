@@ -1,0 +1,2107 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2500 3650 2000 3650
+Wire Wire Line
+	2500 3550 2000 3550
+Wire Wire Line
+	2500 3450 2000 3450
+Wire Wire Line
+	2450 3350 2500 3350
+Wire Wire Line
+	2450 3250 2500 3250
+Connection ~ 2450 3250
+Wire Wire Line
+	2450 3250 2450 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5F094F3D
+P 2050 3050
+AR Path="/5F094F3D" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F094F3D" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 2050 2800 50  0001 C CNN
+F 1 "GND" H 2055 2877 50  0000 C CNN
+F 2 "" H 2050 3050 50  0001 C CNN
+F 3 "" H 2050 3050 50  0001 C CNN
+	1    2050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3000 2050 3000
+Wire Wire Line
+	2050 3000 2050 3050
+Wire Wire Line
+	2350 3000 2450 3000
+Connection ~ 2450 3000
+Wire Wire Line
+	2450 3000 2450 3250
+Wire Wire Line
+	3300 3250 3350 3250
+Wire Wire Line
+	3300 3350 3350 3350
+Wire Wire Line
+	3350 3350 3350 3250
+Wire Wire Line
+	2450 2900 2450 3000
+$Comp
+L power:VCC #PWR?
+U 1 1 5F094F4C
+P 2450 2900
+AR Path="/5F094F4C" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F094F4C" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 2450 2750 50  0001 C CNN
+F 1 "VCC" H 2450 3050 50  0000 C CNN
+F 2 "" H 2450 2900 50  0001 C CNN
+F 3 "" H 2450 2900 50  0001 C CNN
+	1    2450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3450 1650 3200
+Wire Wire Line
+	1350 3550 1350 3200
+Wire Wire Line
+	1650 2900 1650 2800
+Wire Wire Line
+	1350 2800 1350 2900
+$Comp
+L power:VCC #PWR?
+U 1 1 5F094F56
+P 1650 2800
+AR Path="/5F094F56" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F094F56" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 1650 2650 50  0001 C CNN
+F 1 "VCC" H 1650 2950 50  0000 C CNN
+F 2 "" H 1650 2800 50  0001 C CNN
+F 3 "" H 1650 2800 50  0001 C CNN
+	1    1650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F094F5C
+P 1350 2800
+AR Path="/5F094F5C" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F094F5C" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 1350 2650 50  0001 C CNN
+F 1 "VCC" H 1350 2950 50  0000 C CNN
+F 2 "" H 1350 2800 50  0001 C CNN
+F 3 "" H 1350 2800 50  0001 C CNN
+	1    1350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3200 1050 3650
+Wire Wire Line
+	1050 2900 1050 2800
+$Comp
+L power:VCC #PWR?
+U 1 1 5F094F64
+P 1050 2800
+AR Path="/5F094F64" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F094F64" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 1050 2650 50  0001 C CNN
+F 1 "VCC" H 1050 2950 50  0000 C CNN
+F 2 "" H 1050 2800 50  0001 C CNN
+F 3 "" H 1050 2800 50  0001 C CNN
+	1    1050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5F094F6A
+P 6850 4000
+AR Path="/5F094F6A" Ref="BT?"  Part="1" 
+AR Path="/5F0383B8/5F094F6A" Ref="BT1"  Part="1" 
+F 0 "BT1" H 6850 4200 50  0000 L CNN
+F 1 "16850 Li-ion Battery Cell" H 6850 3950 50  0000 L CNN
+F 2 "" V 6850 4060 50  0001 C CNN
+F 3 "~" V 6850 4060 50  0001 C CNN
+	1    6850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3250 4950 3600
+Connection ~ 3350 3250
+Wire Wire Line
+	4550 3450 4550 3650
+Wire Wire Line
+	3300 3450 3750 3450
+Wire Wire Line
+	3800 3550 3800 3700
+Wire Wire Line
+	3300 3550 3800 3550
+Wire Wire Line
+	3300 3650 3500 3650
+$Comp
+L RESISTORS:RESC_1K_0603 R?
+U 1 1 5F094F7F
+P 3800 3800
+AR Path="/5F094F7F" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F094F7F" Ref="R5"  Part="1" 
+F 0 "R5" H 3800 3900 50  0000 L CNN
+F 1 "RESC_1K_0603" H 5000 4900 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&part_id=729624" H 3800 3800 50  0001 C CNN
+F 4 "1K" H 3800 3700 50  0000 L CNN "VAL"
+F 5 "RC0603JR-071KL" H 5050 4700 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 5050 4600 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 5050 4400 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 5050 4500 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624" H 5050 4300 50  0001 C CNN "Link"
+F 10 "N/A" H 5300 5150 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 5050 4800 50  0001 C CNN "BOM_IGNORE"
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITORS:CAPC_1uF_0603 C?
+U 1 1 5F094F8D
+P 2250 3000
+AR Path="/5F094F8D" Ref="C?"  Part="1" 
+AR Path="/5F0383B8/5F094F8D" Ref="C1"  Part="1" 
+F 0 "C1" V 2200 2900 50  0000 C CNN
+F 1 "CAPC_1uF_0603" H 3110 3570 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3100 3650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B105MO8NNWC.pdf" H 3100 3400 50  0001 C CNN
+F 4 "1uF" V 2200 3100 50  0000 C CNN "VAL"
+F 5 "CL10B105MO8NNWC" H 3250 3650 50  0001 C CNN "Manufacturer_PN"
+F 6 "CL10B105MO8NNWC" H 3400 3700 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3550 3700 50  0001 C CNN "Price for 1"
+F 8 "0.01960" H 3550 3700 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105MO8NNWC/1276-6524-1-ND/5961383" H 3600 3650 50  0001 C CNN "Link"
+F 10 "N/A" H 3450 3600 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3450 3500 50  0001 C CNN "BOM_IGNORE"
+	1    2250 3000
+	0    1    1    0   
+$EndComp
+Text Notes 4400 4500 0    50   ~ 0
+ß = 3380K\n\n
+$Comp
+L RESISTORS:RESC_1K_0603 R?
+U 1 1 5F094F9C
+P 3850 3450
+AR Path="/5F094F9C" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F094F9C" Ref="R2"  Part="1" 
+F 0 "R2" V 3800 3250 50  0000 L CNN
+F 1 "RESC_1K_0603" H 5050 4550 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 3950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&part_id=729624" H 3850 3450 50  0001 C CNN
+F 4 "1K" V 3800 3550 50  0000 L CNN "VAL"
+F 5 "RC0603JR-071KL" H 5100 4350 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 5100 4250 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 5100 4050 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 5100 4150 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624" H 5100 3950 50  0001 C CNN "Link"
+F 10 "N/A" H 5350 4800 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 5100 4450 50  0001 C CNN "BOM_IGNORE"
+	1    3850 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3700 4250 3450
+$Comp
+L SENSORS:NTC_10K_3380K_0603 NTC?
+U 1 1 5F094FAB
+P 4550 3800
+AR Path="/5F094FAB" Ref="NTC?"  Part="1" 
+AR Path="/5F0383B8/5F094FAB" Ref="NTC1"  Part="1" 
+F 0 "NTC1" H 4550 3950 50  0000 L CNN
+F 1 "NTC_10K_3380K_0603" H 5150 4225 50  0001 C CNN
+F 2 "" H 5050 4350 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/thermistor/r03e.ashx?la=en-us" H 5050 4350 50  0001 C CNN
+F 4 "10K" H 4550 3650 50  0000 L CNN "VAL"
+F 5 "NCU18XH103F60RB" H 5300 4850 50  0001 C CNN "Manufacturer_PN"
+F 6 "Murata Electronics" H 5300 4850 50  0001 C CNN "Manufacturer"
+F 7 "0.12000" H 5550 4800 50  0001 C CNN "Price for 1"
+F 8 "0.06360" H 5550 4800 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/murata-electronics/NCU18XH103F60RB/490-16279-1-ND/7363262" H 5300 4850 50  0001 C CNN "Link"
+F 10 "N/A" H 5550 4800 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 5550 4800 50  0001 C CNN "BOM_IGNORE"
+	1    4550 3800
+	1    0    0    -1  
+$EndComp
+Text Notes 4100 4500 0    50   ~ 0
+Temperature range: 0 - 50 [°C]\n
+$Comp
+L RESISTORS:RESC_124K_0603 R?
+U 1 1 5F094FBA
+P 4250 3800
+AR Path="/5F094FBA" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F094FBA" Ref="R6"  Part="1" 
+F 0 "R6" H 4250 3900 50  0000 L CNN
+F 1 "RESC_124K_0603" H 4330 4960 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 4250 3800 50  0001 C CNN
+F 4 "124K" H 4250 3700 50  0000 L CNN "VAL"
+F 5 "RMCF0603FT124K" H 4300 5000 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 4500 4900 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 4300 4900 50  0001 C CNN "Price for 1"
+F 8 "0.00650" H 4500 4900 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT124K/RMCF0603FT124KCT-ND/1943121" H 4300 5000 50  0001 C CNN "Link"
+F 10 "N/A" H 4050 4900 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 4100 5000 50  0001 C CNN "BOM_IGNORE"
+	1    4250 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 3450
+Wire Wire Line
+	3950 3450 4250 3450
+Wire Wire Line
+	4250 3450 4550 3450
+$Comp
+L LEDS:LEDC_BLUE_0603 DS?
+U 1 1 5F094FCB
+P 1050 3050
+AR Path="/5F094FCB" Ref="DS?"  Part="1" 
+AR Path="/5F0383B8/5F094FCB" Ref="DS1"  Part="1" 
+F 0 "DS1" V 950 3050 50  0000 L CNN
+F 1 "LEDC_BLUE_0603" H 1700 3475 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1600 3600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150060BS75000.pdf" H 1600 3600 50  0001 C CNN
+F 4 "BLUE" V 1200 3050 50  0000 L CNN "VAL"
+F 5 "150060BS75000" H 1650 3850 50  0001 C CNN "Manufacturer_PN"
+F 6 "Würth Elektronik" H 1650 3850 50  0001 C CNN "Manufacturer"
+F 7 "0.16" H 2200 3950 50  0001 C CNN "Price for 1"
+F 8 "0.125" H 2200 3950 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060BS75000/732-4966-1-ND/4489893" H 1150 3750 50  0001 C CNN "Link"
+F 10 "N/A" H 2200 3950 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 2200 3950 50  0001 C CNN "BOM_IGNORE"
+	1    1050 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L LEDS:LEDC_GREEN_0603 DS?
+U 1 1 5F094FD9
+P 1350 3050
+AR Path="/5F094FD9" Ref="DS?"  Part="1" 
+AR Path="/5F0383B8/5F094FD9" Ref="DS2"  Part="1" 
+F 0 "DS2" V 1250 3050 50  0000 L CNN
+F 1 "LEDC_GREEN_0603" H 2250 3575 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 3700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150060VS75000.pdf" H 2150 3700 50  0001 C CNN
+F 4 "GREEN" V 1500 3050 50  0000 L CNN "VAL"
+F 5 "150060VS75000" H 2200 3950 50  0001 C CNN "Manufacturer_PN"
+F 6 "Würth Elektronik" H 2200 3950 50  0001 C CNN "Manufacturer"
+F 7 "0.14" H 2750 4050 50  0001 C CNN "Price for 1"
+F 8 "0.114" H 2750 4050 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060VS75000/732-4980-1-ND/4489904" H 1700 3850 50  0001 C CNN "Link"
+F 10 "N/A" H 2750 4050 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 2750 4050 50  0001 C CNN "BOM_IGNORE"
+	1    1350 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L LEDS:LEDC_RED_0603 DS?
+U 1 1 5F094FE7
+P 1650 3050
+AR Path="/5F094FE7" Ref="DS?"  Part="1" 
+AR Path="/5F0383B8/5F094FE7" Ref="DS3"  Part="1" 
+F 0 "DS3" V 1550 3050 50  0000 L CNN
+F 1 "LEDC_RED_0603" H 2550 3575 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2450 3700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150060RS75000.pdf" H 2450 3700 50  0001 C CNN
+F 4 "RED" V 1800 3050 50  0000 L CNN "VAL"
+F 5 "150060RS75000" H 2500 3950 50  0001 C CNN "Manufacturer_PN"
+F 6 "Würth Elektronik" H 2500 3950 50  0001 C CNN "Manufacturer"
+F 7 "0.14" H 3050 4050 50  0001 C CNN "Price for 1"
+F 8 "0.114" H 3050 4050 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060RS75000/732-4978-1-ND/4489899" H 2000 3850 50  0001 C CNN "Link"
+F 10 "N/A" H 3050 4050 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3050 4050 50  0001 C CNN "BOM_IGNORE"
+	1    1650 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 9050 1650 9100
+Wire Wire Line
+	1550 9050 1650 9050
+Wire Wire Line
+	1550 8950 1550 9050
+Connection ~ 1650 9050
+Wire Wire Line
+	1650 8950 1650 9050
+$Comp
+L power:GND #PWR?
+U 1 1 5F094FF2
+P 1650 9100
+AR Path="/5F094FF2" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F094FF2" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 1650 8850 50  0001 C CNN
+F 1 "GND" H 1650 8950 50  0000 C CNN
+F 2 "" H 1650 9100 50  0001 C CNN
+F 3 "" H 1650 9100 50  0001 C CNN
+	1    1650 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTORS:Micro_USB_CONN J?
+U 1 1 5F095000
+P 1500 8500
+AR Path="/5F095000" Ref="J?"  Part="1" 
+AR Path="/5F0383B8/5F095000" Ref="J5"  Part="1" 
+F 0 "J5" H 1503 9017 50  0000 C CNN
+F 1 "Micro_USB_CONN" H 3500 10375 50  0001 C CNN
+F 2 "" H 2050 9050 50  0001 C CNN
+F 3 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" H 2050 9050 50  0001 C CNN
+F 4 "MicroUSB connector" H 1503 8926 50  0000 C CNN "VAL"
+F 5 "MCR-B-S-RA-SMT-EH4B-T/R" H 3650 10250 50  0001 C CNN "Manufacturer_PN"
+F 6 "Adam Tech" H 3650 10250 50  0001 C CNN "Manufacturer"
+F 7 "0.37000" H 3650 10250 50  0001 C CNN "Price for 1"
+F 8 "0.24480" H 3650 10250 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/adam-tech/MCR-B-S-RA-SMT-EH4B-T-R/2057-MCR-B-S-RA-SMT-EH4B-T-RCT-ND/9833110" H 3650 10250 50  0001 C CNN "Link"
+F 10 "N/A" H 3650 10250 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3650 10250 50  0001 C CNN "BOM_IGNORE"
+	1    1500 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 9050 1450 9050
+Wire Wire Line
+	1450 9050 1450 8950
+Connection ~ 1550 9050
+Wire Wire Line
+	1450 9050 1350 9050
+Wire Wire Line
+	1350 9050 1350 8950
+Connection ~ 1450 9050
+Wire Wire Line
+	1350 9050 1250 9050
+Wire Wire Line
+	1250 9050 1250 8950
+Connection ~ 1350 9050
+$Comp
+L power:GND #PWR?
+U 1 1 5F09500F
+P 1900 9100
+AR Path="/5F09500F" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09500F" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 1900 8850 50  0001 C CNN
+F 1 "GND" H 1900 8950 50  0000 C CNN
+F 2 "" H 1900 9100 50  0001 C CNN
+F 3 "" H 1900 9100 50  0001 C CNN
+	1    1900 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F095015
+P 2400 8650
+AR Path="/5F095015" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095015" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 2400 8400 50  0001 C CNN
+F 1 "GND" H 2405 8477 50  0000 C CNN
+F 2 "" H 2400 8650 50  0001 C CNN
+F 3 "" H 2400 8650 50  0001 C CNN
+	1    2400 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3650 1800 3650
+Wire Wire Line
+	1350 3550 1800 3550
+Wire Wire Line
+	1650 3450 1800 3450
+$Comp
+L CAPACITORS:CAPC_10uF_0603 C?
+U 1 1 5F095026
+P 2400 8500
+AR Path="/5F095026" Ref="C?"  Part="1" 
+AR Path="/5F0383B8/5F095026" Ref="C5"  Part="1" 
+F 0 "C5" H 2492 8546 50  0000 L CNN
+F 1 "CAPC_10uF_0603" H 3260 9070 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 9150 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf" H 3250 8900 50  0001 C CNN
+F 4 "10uF" H 2492 8455 50  0000 L CNN "VAL"
+F 5 "GRM188R61E106KA73D" H 3400 9150 50  0001 C CNN "Manufacturer_PN"
+F 6 "Murata Electronics" H 3550 9200 50  0001 C CNN "Manufacturer"
+F 7 "0.36000" H 3700 9200 50  0001 C CNN "Price for 1"
+F 8 "0.14850" H 3700 9200 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61E106KA73D/490-18214-1-ND/9867943" H 3750 9150 50  0001 C CNN "Link"
+F 10 "N/A" H 3600 9100 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3600 9000 50  0001 C CNN "BOM_IGNORE"
+	1    2400 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 8600 2400 8650
+Wire Wire Line
+	2400 8100 2400 8250
+$Comp
+L power:VCC #PWR?
+U 1 1 5F09502E
+P 2400 8100
+AR Path="/5F09502E" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09502E" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 2400 7950 50  0001 C CNN
+F 1 "VCC" H 2400 8250 50  0000 C CNN
+F 2 "" H 2400 8100 50  0001 C CNN
+F 3 "" H 2400 8100 50  0001 C CNN
+	1    2400 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3550 11350 3050
+Wire Wire Line
+	11350 3050 11850 3050
+Wire Wire Line
+	12850 3550 12400 3550
+Wire Wire Line
+	11800 3850 11700 3850
+Wire Wire Line
+	12350 3050 12850 3050
+Wire Wire Line
+	12400 3700 12500 3700
+Wire Wire Line
+	14150 3550 14150 3900
+Connection ~ 14150 3550
+Wire Wire Line
+	14150 3550 14500 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5F09503D
+P 14150 4450
+AR Path="/5F09503D" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09503D" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 14150 4200 50  0001 C CNN
+F 1 "GND" H 14150 4300 50  0000 C CNN
+F 2 "" H 14150 4450 50  0001 C CNN
+F 3 "" H 14150 4450 50  0001 C CNN
+	1    14150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 4100 14150 4450
+$Comp
+L power:VCC #PWR?
+U 1 1 5F095044
+P 13850 3050
+AR Path="/5F095044" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095044" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 13850 2900 50  0001 C CNN
+F 1 "VCC" H 13850 3200 50  0000 C CNN
+F 2 "" H 13850 3050 50  0001 C CNN
+F 3 "" H 13850 3050 50  0001 C CNN
+	1    13850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 3400 13850 3550
+Connection ~ 13850 3550
+Wire Wire Line
+	13850 3550 14150 3550
+Connection ~ 12850 3550
+Wire Wire Line
+	13850 3050 13850 3100
+Text GLabel 14500 3550 2    50   Input ~ 0
+VOUT
+Wire Wire Line
+	4500 8350 4600 8350
+$Comp
+L power:GND #PWR?
+U 1 1 5F095052
+P 4850 9150
+AR Path="/5F095052" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095052" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 4850 8900 50  0001 C CNN
+F 1 "GND" H 4850 9000 50  0000 C CNN
+F 2 "" H 4850 9150 50  0001 C CNN
+F 3 "" H 4850 9150 50  0001 C CNN
+	1    4850 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 9150 4850 9050
+Wire Wire Line
+	4950 8950 4950 9050
+Wire Wire Line
+	4950 9050 4850 9050
+Connection ~ 4850 9050
+Wire Wire Line
+	4850 9050 4850 8950
+Wire Wire Line
+	1800 8250 2400 8250
+Connection ~ 2400 8250
+Wire Wire Line
+	2400 8250 2400 8400
+Wire Wire Line
+	1800 8350 1900 8350
+Wire Wire Line
+	1900 8350 1900 8450
+Wire Wire Line
+	1900 8450 1800 8450
+Wire Wire Line
+	1800 8550 1900 8550
+Wire Wire Line
+	1900 8550 1900 9100
+$Comp
+L CONNECTORS:USB-A_CONN J?
+U 1 1 5F09506D
+P 5000 8550
+AR Path="/5F09506D" Ref="J?"  Part="1" 
+AR Path="/5F0383B8/5F09506D" Ref="J6"  Part="1" 
+F 0 "J6" H 5300 9000 50  0000 R CNN
+F 1 "USB-A_CONN" H 6400 9250 50  0001 C CNN
+F 2 "" H 5550 9100 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=292303&DocType=Customer+Drawing&DocLang=English" H 5550 9100 50  0001 C CNN
+F 4 "USB_TYPEA_CONN" H 5350 8900 50  0000 R CNN "VAL"
+F 5 "292303-1" H 6650 9800 50  0001 C CNN "Manufacturer_PN"
+F 6 "TE Connectivity AMP Connectors" H 6650 9800 50  0001 C CNN "Manufacturer"
+F 7 "1.48000" H 6650 9800 50  0001 C CNN "Price for 1"
+F 8 "1.14950" H 6650 9800 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292303-1/A31726-ND/773786" H 6650 9800 50  0001 C CNN "Link"
+F 10 "N/A" H 6650 9800 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 6650 9800 50  0001 C CNN "BOM_IGNORE"
+	1    5000 8550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 8950 5050 9050
+Wire Wire Line
+	5050 9050 4950 9050
+Connection ~ 4950 9050
+Text Label 11400 3550 0    50   ~ 0
+BOOST_IN
+Text Label 12650 4050 0    50   ~ 0
+BOOST_FB
+Text Label 12400 3550 0    50   ~ 0
+BOOST_SW
+Text Label 3500 3250 0    50   ~ 0
++VBAT_CELL
+Text Label 3350 3450 0    50   ~ 0
+THERM
+Text Label 4450 3450 0    50   ~ 0
+NTC
+Text Label 3350 3550 0    50   ~ 0
+PROG
+Text Label 2250 3450 0    50   ~ 0
+STAT1
+Text Label 2250 3550 0    50   ~ 0
+STAT2
+Text Label 2250 3650 0    50   ~ 0
+~PG
+$Comp
+L DIODES:SCHOTTKY_10V_2A_SMA D?
+U 1 1 5F095088
+P 13150 3550
+AR Path="/5F095088" Ref="D?"  Part="1" 
+AR Path="/5F0383B8/5F095088" Ref="D2"  Part="1" 
+F 0 "D2" H 13000 3600 50  0000 C CNN
+F 1 "SCHOTTKY_10V_2A_SMA" H 13950 4225 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 13850 4350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBRA210LT3-D.PDF" H 13850 4350 50  0001 C CNN
+F 4 "MBRA210LT3G" H 13500 3600 50  0000 C CNN "VAL"
+F 5 "MBRA210LT3G" H 13950 4550 50  0001 C CNN "Manufacturer_PN"
+F 6 "ON Semiconductor" H 13950 4550 50  0001 C CNN "Manufacturer"
+F 7 "0.47000" H 13950 4550 50  0001 C CNN "Price for 1"
+F 8 "0.27690" H 13950 4550 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/on-semiconductor/MBRA210LT3G/MBRA210LT3GOSCT-ND/917974" H 13950 4550 50  0001 C CNN "Link"
+F 10 "N/A" H 13950 4550 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 13950 4550 50  0001 C CNN "BOM_IGNORE"
+	1    13150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODES:SCHOTTKY_10V_2A_SMA D?
+U 1 1 5F095096
+P 13850 3250
+AR Path="/5F095096" Ref="D?"  Part="1" 
+AR Path="/5F0383B8/5F095096" Ref="D1"  Part="1" 
+F 0 "D1" V 13700 3250 50  0000 L CNN
+F 1 "SCHOTTKY_10V_2A_SMA" H 14650 3925 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 14550 4050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBRA210LT3-D.PDF" H 14550 4050 50  0001 C CNN
+F 4 "MBRA210LT3G" V 14000 3250 50  0000 L CNN "VAL"
+F 5 "MBRA210LT3G" H 14650 4250 50  0001 C CNN "Manufacturer_PN"
+F 6 "ON Semiconductor" H 14650 4250 50  0001 C CNN "Manufacturer"
+F 7 "0.47000" H 14650 4250 50  0001 C CNN "Price for 1"
+F 8 "0.27690" H 14650 4250 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/on-semiconductor/MBRA210LT3G/MBRA210LT3GOSCT-ND/917974" H 14650 4250 50  0001 C CNN "Link"
+F 10 "N/A" H 14650 4250 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 14650 4250 50  0001 C CNN "BOM_IGNORE"
+	1    13850 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12850 3550 13000 3550
+Wire Wire Line
+	12500 4050 13450 4050
+Wire Wire Line
+	11350 3550 11800 3550
+Text Label 11400 3700 0    50   ~ 0
+BOOST_EN
+Wire Wire Line
+	11400 5000 11400 5150
+$Comp
+L power:VCC #PWR?
+U 1 1 5F0950A1
+P 10550 5100
+AR Path="/5F0950A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F0950A1" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 10550 4950 50  0001 C CNN
+F 1 "VCC" H 10550 5250 50  0000 C CNN
+F 2 "" H 10550 5100 50  0001 C CNN
+F 3 "" H 10550 5100 50  0001 C CNN
+	1    10550 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 5350 10550 5350
+Wire Wire Line
+	10550 5350 10550 5100
+$Comp
+L power:GND #PWR?
+U 1 1 5F0950A9
+P 11400 5900
+AR Path="/5F0950A9" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F0950A9" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 11400 5650 50  0001 C CNN
+F 1 "GND" H 11400 5750 50  0000 C CNN
+F 2 "" H 11400 5900 50  0001 C CNN
+F 3 "" H 11400 5900 50  0001 C CNN
+	1    11400 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 3700 10950 3700
+Text Notes 11500 5750 0    50   ~ 0
+If VCC is connected\nthe boost is disabled\nno current is drawn from the battery
+$Comp
+L RESISTORS:RESC_10K_0603 R?
+U 1 1 5F0950B9
+P 11100 5650
+AR Path="/5F0950B9" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F0950B9" Ref="R14"  Part="1" 
+F 0 "R14" H 11050 5550 50  0000 C CNN
+F 1 "RESC_10K_0603" H 12050 6550 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11150 6850 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 11100 5650 50  0001 C CNN
+F 4 "10K" H 11000 5800 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 11150 6850 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 11350 6750 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 11150 6750 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 11350 6750 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 11150 6850 50  0001 C CNN "Link"
+F 10 "N/A" H 10900 6750 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 10950 6850 50  0001 C CNN "BOM_IGNORE"
+	1    11100 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11100 5350 11100 5550
+Wire Wire Line
+	11100 5750 11100 5900
+Wire Wire Line
+	11400 5550 11400 5900
+$Comp
+L power:GND #PWR?
+U 1 1 5F0950C2
+P 11100 5900
+AR Path="/5F0950C2" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F0950C2" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 11100 5650 50  0001 C CNN
+F 1 "GND" H 11100 5750 50  0000 C CNN
+F 2 "" H 11100 5900 50  0001 C CNN
+F 3 "" H 11100 5900 50  0001 C CNN
+	1    11100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 5350 11100 5350
+Connection ~ 11350 3550
+Text Label 11550 5000 0    50   ~ 0
+BOOST_EN
+Wire Wire Line
+	11550 5000 11400 5000
+$Comp
+L RESISTORS:RESC_1K_0603 R?
+U 1 1 5F0950D4
+P 10800 5350
+AR Path="/5F0950D4" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F0950D4" Ref="R13"  Part="1" 
+F 0 "R13" V 10750 5150 50  0000 L CNN
+F 1 "RESC_1K_0603" H 12000 6450 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12100 5850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&part_id=729624" H 10800 5350 50  0001 C CNN
+F 4 "1K" V 10750 5450 50  0000 L CNN "VAL"
+F 5 "RC0603JR-071KL" H 12050 6250 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 12050 6150 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 12050 5950 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 12050 6050 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624" H 12050 5850 50  0001 C CNN "Link"
+F 10 "N/A" H 12300 6700 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 12050 6350 50  0001 C CNN "BOM_IGNORE"
+	1    10800 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L TRANSISTORS:N-Channel_60V_115mA_SMD U?
+U 1 1 5F0950E2
+P 11400 5350
+AR Path="/5F0950E2" Ref="U?"  Part="1" 
+AR Path="/5F0383B8/5F0950E2" Ref="U3"  Part="1" 
+F 0 "U3" H 11505 5396 50  0000 L CNN
+F 1 "N-Channel_60V_115mA_SMD" H 12900 6425 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 12800 6550 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF" H 12800 6550 50  0001 C CNN
+F 4 "2N7002LT1G" H 11505 5305 50  0000 L CNN "VAL"
+F 5 "2N7002LT1G" H 12600 6750 50  0001 C CNN "Manufacturer_PN"
+F 6 "ON Semiconductor" H 12600 6750 50  0001 C CNN "Manufacturer"
+F 7 "0.18" H 12600 6750 50  0001 C CNN "Price for 1"
+F 8 "0.06880" H 12600 6750 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/on-semiconductor/2N7002LT1G/2N7002LT1GOSCT-ND/917791" H 12600 6750 50  0001 C CNN "Link"
+F 10 "N/A" H 12600 6750 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 12600 6750 50  0001 C CNN "BOM_IGNORE"
+	1    11400 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 11100 5350
+Wire Wire Line
+	12500 3700 12500 4050
+Wire Wire Line
+	13300 3550 13450 3550
+Connection ~ 13450 3550
+Wire Wire Line
+	13450 3550 13850 3550
+Wire Wire Line
+	13450 3550 13450 3700
+Connection ~ 13450 4050
+Text GLabel 4500 8300 1    50   Input ~ 0
+VOUT
+$Comp
+L RESISTORS:RESC_16K_0603 R?
+U 1 1 5F0950F8
+P 13450 3800
+AR Path="/5F0950F8" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F0950F8" Ref="R11"  Part="1" 
+F 0 "R11" H 13450 3900 50  0000 L CNN
+F 1 "RESC_16K_0603" H 14500 4550 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13500 5000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 13450 3800 50  0001 C CNN
+F 4 "16K" H 13450 3700 50  0000 L CNN "VAL"
+F 5 "ERA-3AED163V" H 13500 5000 50  0001 C CNN "Manufacturer_PN"
+F 6 "Panasonic Electronic Components" H 13700 4900 50  0001 C CNN "Manufacturer"
+F 7 "0.11000" H 13500 4900 50  0001 C CNN "Price for 1"
+F 8 "0.03960" H 13700 4900 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AED163V/P123745CT-ND/9467674" H 13500 5000 50  0001 C CNN "Link"
+F 10 "N/A" H 13250 4900 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 13300 5000 50  0001 C CNN "BOM_IGNORE"
+	1    13450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 3900 13450 4050
+Text Notes 14550 3700 0    50   ~ 0
+Vout = 5[V]
+Text Notes 1050 4000 0    50   ~ 0
+BLUE - POWER GOOD\nRED - CHARGING\nGREEN - FULL\n
+$Comp
+L RESISTORS:RESC_470R_0603 R?
+U 1 1 5F095109
+P 1900 3650
+AR Path="/5F095109" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F095109" Ref="R4"  Part="1" 
+F 0 "R4" V 1850 3500 50  0000 C CNN
+F 1 "RESC_470R_0603" H 1980 4810 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1950 4850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 3650 50  0001 C CNN
+F 4 "470R" V 1850 3800 50  0000 C CNN "VAL"
+F 5 "RC0603JR-07470RL" H 1950 4850 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 2150 4750 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 1950 4750 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 2150 4750 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738" H 1950 4850 50  0001 C CNN "Link"
+F 10 "N/A" H 1700 4750 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 1750 4850 50  0001 C CNN "BOM_IGNORE"
+	1    1900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTORS:RESC_470R_0603 R?
+U 1 1 5F095117
+P 1900 3550
+AR Path="/5F095117" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F095117" Ref="R3"  Part="1" 
+F 0 "R3" V 1850 3400 50  0000 C CNN
+F 1 "RESC_470R_0603" H 1980 4710 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1950 4750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 3550 50  0001 C CNN
+F 4 "470R" V 1850 3700 50  0000 C CNN "VAL"
+F 5 "RC0603JR-07470RL" H 1950 4750 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 2150 4650 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 1950 4650 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 2150 4650 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738" H 1950 4750 50  0001 C CNN "Link"
+F 10 "N/A" H 1700 4650 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 1750 4750 50  0001 C CNN "BOM_IGNORE"
+	1    1900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTORS:RESC_470R_0603 R?
+U 1 1 5F095125
+P 1900 3450
+AR Path="/5F095125" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F095125" Ref="R1"  Part="1" 
+F 0 "R1" V 1850 3300 50  0000 C CNN
+F 1 "RESC_470R_0603" H 1980 4610 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1950 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 3450 50  0001 C CNN
+F 4 "470R" V 1850 3600 50  0000 C CNN "VAL"
+F 5 "RC0603JR-07470RL" H 1950 4650 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 2150 4550 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 1950 4550 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 2150 4550 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738" H 1950 4650 50  0001 C CNN "Link"
+F 10 "N/A" H 1700 4550 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 1750 4650 50  0001 C CNN "BOM_IGNORE"
+	1    1900 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12850 3050 12850 3550
+$Comp
+L ICs:MCP73833 U?
+U 1 1 5F095134
+P 2900 3450
+AR Path="/5F095134" Ref="U?"  Part="1" 
+AR Path="/5F0383B8/5F095134" Ref="U1"  Part="1" 
+F 0 "U1" H 2900 3915 50  0000 C CNN
+F 1 "MCP73833" H 4200 4150 50  0001 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 4800 4250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 2650 3900 50  0001 C CNN
+F 4 "N/A" H 4000 4350 50  0001 C CNN "ASSEMBLY"
+F 5 "N/A" H 4000 4350 50  0001 C CNN "BOM_IGNORE"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP73833-AMI-UN/MCP73833-AMI-UN-ND/1223157" H 4000 4350 50  0001 C CNN "Link"
+F 7 "Microchip Technology" H 4000 4350 50  0001 C CNN "Manufacturer"
+F 8 "MCP73833-AMI/UN" H 4000 4350 50  0001 C CNN "Manufacturer_PN"
+F 9 "0.85000" H 4000 4350 50  0001 C CNN "Price for 1"
+F 10 "0.65000" H 4000 4350 50  0001 C CNN "Price for 100"
+F 11 "MCP73833" H 2900 3824 50  0000 C CNN "VAL"
+	1    2900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICs:MIC2288 U?
+U 1 1 5F095142
+P 12100 3700
+AR Path="/5F095142" Ref="U?"  Part="1" 
+AR Path="/5F0383B8/5F095142" Ref="U2"  Part="1" 
+F 0 "U2" H 12100 4115 50  0000 C CNN
+F 1 "MIC2288" H 13500 4700 50  0001 C CNN
+F 2 "" H 11850 4150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2288-Data-Sheet-DS20006034C.pdf" H 11850 4150 50  0001 C CNN
+F 4 "MIC2288" H 12100 4024 50  0000 C CNN "VAL"
+F 5 "MIC2288YD5-TR" H 13100 4850 50  0001 C CNN "Manufacturer_PN"
+F 6 "Microchip Technology" H 13100 4850 50  0001 C CNN "Manufacturer"
+F 7 "0.54000" H 13100 4850 50  0001 C CNN "Price for 1"
+F 8 "0.41000" H 13100 4850 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/microchip-technology/MIC2288YD5-TR/576-1729-1-ND/1799425" H 13100 4850 50  0001 C CNN "Link"
+F 10 "N/A" H 13100 4850 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 13100 4850 50  0001 C CNN "BOM_IGNORE"
+	1    12100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F095148
+P 13450 4500
+AR Path="/5F095148" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095148" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 13450 4250 50  0001 C CNN
+F 1 "GND" H 13450 4350 50  0000 C CNN
+F 2 "" H 13450 4500 50  0001 C CNN
+F 3 "" H 13450 4500 50  0001 C CNN
+	1    13450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 4400 13450 4500
+Wire Wire Line
+	13450 4050 13450 4200
+$Comp
+L RESISTORS:RESC_4K99_0603 R?
+U 1 1 5F095158
+P 13450 4300
+AR Path="/5F095158" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F095158" Ref="R12"  Part="1" 
+F 0 "R12" H 13450 4450 50  0000 L CNN
+F 1 "RESC_4K99_0603" H 14200 4950 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13500 5500 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 13450 4300 50  0001 C CNN
+F 4 "4K99" H 13450 4150 50  0000 L CNN "VAL"
+F 5 "CR0603-FX-4991ELF" H 13500 5500 50  0001 C CNN "Manufacturer_PN"
+F 6 "Bourns Inc." H 13700 5400 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 13500 5400 50  0001 C CNN "Price for 1"
+F 8 "0.00650" H 13700 5400 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-4991ELF/CR0603-FX-4991ELFCT-ND/3767675" H 13500 5500 50  0001 C CNN "Link"
+F 10 "N/A" H 13250 5400 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 13300 5500 50  0001 C CNN "BOM_IGNORE"
+	1    13450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 3850 11700 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5F09515F
+P 11700 4400
+AR Path="/5F09515F" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09515F" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 11700 4150 50  0001 C CNN
+F 1 "GND" H 11700 4250 50  0000 C CNN
+F 2 "" H 11700 4400 50  0001 C CNN
+F 3 "" H 11700 4400 50  0001 C CNN
+	1    11700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3800 4950 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5F095166
+P 4950 4100
+AR Path="/5F095166" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095166" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 4950 3850 50  0001 C CNN
+F 1 "GND" H 4950 3950 50  0000 C CNN
+F 2 "" H 4950 4100 50  0001 C CNN
+F 3 "" H 4950 4100 50  0001 C CNN
+	1    4950 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3650 3500 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5F09516D
+P 3500 4100
+AR Path="/5F09516D" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09516D" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 3500 3850 50  0001 C CNN
+F 1 "GND" H 3500 3950 50  0000 C CNN
+F 2 "" H 3500 4100 50  0001 C CNN
+F 3 "" H 3500 4100 50  0001 C CNN
+	1    3500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3900 3800 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5F095174
+P 3800 4100
+AR Path="/5F095174" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095174" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 3800 3850 50  0001 C CNN
+F 1 "GND" H 3800 3950 50  0000 C CNN
+F 2 "" H 3800 4100 50  0001 C CNN
+F 3 "" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3900 4250 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5F09517B
+P 4250 4100
+AR Path="/5F09517B" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09517B" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 4250 3850 50  0001 C CNN
+F 1 "GND" H 4250 3950 50  0000 C CNN
+F 2 "" H 4250 4100 50  0001 C CNN
+F 3 "" H 4250 4100 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3950 4550 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5F095182
+P 4550 4100
+AR Path="/5F095182" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095182" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 4550 3850 50  0001 C CNN
+F 1 "GND" H 4550 3950 50  0000 C CNN
+F 2 "" H 4550 4100 50  0001 C CNN
+F 3 "" H 4550 4100 50  0001 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 7900 1    50   Input ~ 0
+VOUT
+Text GLabel 3550 7900 1    50   Input ~ 0
+VOUT
+Text Notes 3250 9600 0    50   ~ 0
+CHANGE VALS OF RESISTORS\nACCORDING TO CHARGE PROFILE\n
+$Comp
+L power:GND #PWR?
+U 1 1 5F09518B
+P 3550 9200
+AR Path="/5F09518B" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09518B" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 3550 8950 50  0001 C CNN
+F 1 "GND" H 3550 9050 50  0000 C CNN
+F 2 "" H 3550 9200 50  0001 C CNN
+F 3 "" H 3550 9200 50  0001 C CNN
+	1    3550 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F095191
+P 3900 9200
+AR Path="/5F095191" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095191" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 3900 8950 50  0001 C CNN
+F 1 "GND" H 3900 9050 50  0000 C CNN
+F 2 "" H 3900 9200 50  0001 C CNN
+F 3 "" H 3900 9200 50  0001 C CNN
+	1    3900 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 8150 3550 7900
+Wire Wire Line
+	3900 8150 3900 7900
+Connection ~ 3900 8600
+Wire Wire Line
+	3900 9000 3900 9200
+Wire Wire Line
+	3900 8600 3900 8800
+Wire Wire Line
+	3900 8350 3900 8600
+Wire Wire Line
+	3550 8500 3550 8800
+Connection ~ 3550 8500
+Wire Wire Line
+	3550 9000 3550 9200
+Wire Wire Line
+	3550 8350 3550 8500
+$Comp
+L RESISTORS:RESC_10K_0603 R?
+U 1 1 5F0951A9
+P 3550 8250
+AR Path="/5F0951A9" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F0951A9" Ref="R15"  Part="1" 
+F 0 "R15" H 3500 8100 50  0000 C CNN
+F 1 "RESC_10K_0603" H 4500 9150 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 9450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3550 8250 50  0001 C CNN
+F 4 "10K" H 3450 8400 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 3600 9450 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 3800 9350 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3600 9350 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 3800 9350 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3600 9450 50  0001 C CNN "Link"
+F 10 "N/A" H 3350 9350 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3400 9450 50  0001 C CNN "BOM_IGNORE"
+	1    3550 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L RESISTORS:RESC_10K_0603 R?
+U 1 1 5F0951C5
+P 3900 8900
+AR Path="/5F0951C5" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F0951C5" Ref="R18"  Part="1" 
+F 0 "R18" H 3850 8750 50  0000 C CNN
+F 1 "RESC_10K_0603" H 4850 9800 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 10100 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3900 8900 50  0001 C CNN
+F 4 "10K" H 3800 9050 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 3950 10100 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 4150 10000 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3950 10000 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 4150 10000 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3950 10100 50  0001 C CNN "Link"
+F 10 "N/A" H 3700 10000 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3750 10100 50  0001 C CNN "BOM_IGNORE"
+	1    3900 8900
+	-1   0    0    1   
+$EndComp
+$Comp
+L RESISTORS:RESC_10K_0603 R?
+U 1 1 5F0951D3
+P 3550 8900
+AR Path="/5F0951D3" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F0951D3" Ref="R17"  Part="1" 
+F 0 "R17" H 3500 8750 50  0000 C CNN
+F 1 "RESC_10K_0603" H 4500 9800 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 10100 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3550 8900 50  0001 C CNN
+F 4 "10K" H 3450 9050 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 3600 10100 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 3800 10000 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3600 10000 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 3800 10000 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3600 10100 50  0001 C CNN "Link"
+F 10 "N/A" H 3350 10000 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3400 10100 50  0001 C CNN "BOM_IGNORE"
+	1    3550 8900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 8600 4350 8600
+Wire Wire Line
+	3550 8500 4500 8500
+Text Label 6850 4200 2    50   ~ 0
+-VBAT
+Wire Wire Line
+	3350 3250 4950 3250
+Wire Wire Line
+	10950 3700 10950 3550
+Connection ~ 10950 3550
+Wire Wire Line
+	10950 3550 11350 3550
+$Comp
+L power:VCC #PWR?
+U 1 1 5F0951E0
+P 1600 7350
+AR Path="/5F0951E0" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F0951E0" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 1600 7200 50  0001 C CNN
+F 1 "VCC" H 1600 7500 50  0000 C CNN
+F 2 "" H 1600 7350 50  0001 C CNN
+F 3 "" H 1600 7350 50  0001 C CNN
+	1    1600 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0951E6
+P 1600 7600
+AR Path="/5F0951E6" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F0951E6" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 1600 7350 50  0001 C CNN
+F 1 "GND" H 1605 7427 50  0000 C CNN
+F 2 "" H 1600 7600 50  0001 C CNN
+F 3 "" H 1600 7600 50  0001 C CNN
+	1    1600 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 7550 1600 7600
+Wire Wire Line
+	1400 7400 1600 7400
+Wire Wire Line
+	1600 7400 1600 7350
+Text GLabel 4750 7300 1    50   Input ~ 0
+VOUT
+$Comp
+L power:GND #PWR?
+U 1 1 5F0951F0
+P 4750 7650
+AR Path="/5F0951F0" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F0951F0" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 4750 7400 50  0001 C CNN
+F 1 "GND" H 4750 7500 50  0000 C CNN
+F 2 "" H 4750 7650 50  0001 C CNN
+F 3 "" H 4750 7650 50  0001 C CNN
+	1    4750 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7550 4750 7650
+Wire Wire Line
+	4750 7400 4750 7300
+Wire Wire Line
+	11300 3700 11800 3700
+Wire Wire Line
+	10800 3550 10800 3900
+Wire Wire Line
+	10800 3550 10950 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5F095209
+P 10800 4400
+AR Path="/5F095209" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F095209" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 10800 4150 50  0001 C CNN
+F 1 "GND" H 10800 4250 50  0000 C CNN
+F 2 "" H 10800 4400 50  0001 C CNN
+F 3 "" H 10800 4400 50  0001 C CNN
+	1    10800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTORS:INDC_10uH_CDRH104R L?
+U 1 1 5F095218
+P 12100 3050
+AR Path="/5F095218" Ref="L?"  Part="1" 
+AR Path="/5F0383B8/5F095218" Ref="L1"  Part="1" 
+F 0 "L1" H 11750 3100 50  0000 C CNN
+F 1 "INDC_10uH_CDRH104R" H 13200 3325 50  0001 C CNN
+F 2 "" H 13100 3450 50  0001 C CNN
+F 3 "http://products.sumida.com/products/pdf/CDRH104R.pdf" H 13100 3450 50  0001 C CNN
+F 4 "10uH" H 12450 3100 50  0000 C CNN "VAL"
+F 5 "CDRH104RNP-100NC" H 13150 4000 50  0001 C CNN "Manufacturer_PN"
+F 6 "Sumida America Components Inc." H 13150 4000 50  0001 C CNN "Manufacturer"
+F 7 "1.64000" H 13150 4000 50  0001 C CNN "Price for 1"
+F 8 "1.06260" H 13150 4000 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/sumida-america-components-inc/CDRH104RNP-100NC/308-1429-1-ND/956657" H 13150 4000 50  0001 C CNN "Link"
+F 10 "N/A" H 13150 4000 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 13150 4000 50  0001 C CNN "BOM_IGNORE"
+	1    12100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITORS:CAPC_10uF_0805 C?
+U 1 1 5F095234
+P 4950 3700
+AR Path="/5F095234" Ref="C?"  Part="1" 
+AR Path="/5F0383B8/5F095234" Ref="C2"  Part="1" 
+F 0 "C2" H 5042 3746 50  0000 L CNN
+F 1 "CAPC_10uF_0805" H 5810 4270 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 4350 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 5800 4100 50  0001 C CNN
+F 4 "10uF" H 5042 3655 50  0000 L CNN "VAL"
+F 5 "C0805C106K4PACTU" H 5950 4350 50  0001 C CNN "Manufacturer_PN"
+F 6 "KEMET" H 6100 4400 50  0001 C CNN "Manufacturer"
+F 7 "0.18000" H 6250 4400 50  0001 C CNN "Price for 1"
+F 8 "0.06350" H 6250 4400 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/kemet/C0805C106K4PACTU/399-8012-1-ND/3471735" H 6300 4350 50  0001 C CNN "Link"
+F 10 "N/A" H 6150 4300 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 6150 4200 50  0001 C CNN "BOM_IGNORE"
+	1    4950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITORS:CAPC_10uF_1210 C?
+U 1 1 5F095242
+P 10800 4000
+AR Path="/5F095242" Ref="C?"  Part="1" 
+AR Path="/5F0383B8/5F095242" Ref="C3"  Part="1" 
+F 0 "C3" H 10800 4100 50  0000 L CNN
+F 1 "CAPC_10uF_1210" H 12650 4350 50  0001 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 11650 4650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 11650 4400 50  0001 C CNN
+F 4 "10uF" H 10800 3900 50  0000 L CNN "VAL"
+F 5 "C1210C106M4PACTU" H 11800 4650 50  0001 C CNN "Manufacturer_PN"
+F 6 "KEMET" H 11950 4700 50  0001 C CNN "Manufacturer"
+F 7 "0.40000" H 12100 4700 50  0001 C CNN "Price for 1"
+F 8 "0.16810" H 12100 4700 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/kemet/C1210C106M4PACTU/399-8229-1-ND/3471952" H 12150 4650 50  0001 C CNN "Link"
+F 10 "N/A" H 12000 4600 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 12000 4500 50  0001 C CNN "BOM_IGNORE"
+	1    10800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 4100 10800 4400
+Text Notes 14550 3800 0    50   ~ 0
+Max Current = 0.6[A]
+Text Notes 12550 2750 0    50   ~ 0
+Max temp rise  = 42.5[°C]
+Wire Notes Line
+	13150 2800 13150 3450
+Text Notes 11950 4050 0    50   ~ 0
+Vref = 1.24
+Wire Notes Line
+	13150 3250 13750 3250
+Wire Wire Line
+	1400 7550 1600 7550
+Wire Wire Line
+	4750 7550 5000 7550
+$Comp
+L CONNECTORS:1POS_CONN_PAD_30X30MM_H1MM J?
+U 1 1 5F095259
+P 1250 7400
+AR Path="/5F095259" Ref="J?"  Part="1" 
+AR Path="/5F0383B8/5F095259" Ref="J1"  Part="1" 
+F 0 "J1" H 1250 7500 50  0000 C CNN
+F 1 "1POS_CONN_PAD_30X30MM_H1MM" H 1900 7825 50  0001 C CNN
+F 2 "" H 1800 7950 50  0001 C CNN
+F 3 "N/A" H 1800 7950 50  0001 C CNN
+F 4 "1POS_CONN_PAD_30X30MM_H1MM" H 1308 7524 50  0001 C CNN "VAL"
+F 5 "N/A" H 2300 8100 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 2300 8100 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 2300 8100 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 2300 8100 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 2300 8100 50  0001 C CNN "Link"
+F 10 "N/A" H 2300 8100 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 2300 8100 50  0001 C CNN "BOM_IGNORE"
+	1    1250 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTORS:1POS_CONN_PAD_30X30MM_H1MM J?
+U 1 1 5F095275
+P 5150 7550
+AR Path="/5F095275" Ref="J?"  Part="1" 
+AR Path="/5F0383B8/5F095275" Ref="J4"  Part="1" 
+F 0 "J4" H 5150 7650 50  0000 C CNN
+F 1 "1POS_CONN_PAD_30X30MM_H1MM" H 5800 7975 50  0001 C CNN
+F 2 "" H 5700 8100 50  0001 C CNN
+F 3 "N/A" H 5700 8100 50  0001 C CNN
+F 4 "1POS_CONN_PAD_30X30MM_H1MM" H 5208 7674 50  0001 C CNN "VAL"
+F 5 "N/A" H 6200 8250 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 6200 8250 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 6200 8250 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 6200 8250 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 6200 8250 50  0001 C CNN "Link"
+F 10 "N/A" H 6200 8250 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 6200 8250 50  0001 C CNN "BOM_IGNORE"
+	1    5150 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONNECTORS:1POS_CONN_PAD_30X30MM_H1MM J?
+U 1 1 5F095283
+P 1250 7550
+AR Path="/5F095283" Ref="J?"  Part="1" 
+AR Path="/5F0383B8/5F095283" Ref="J2"  Part="1" 
+F 0 "J2" H 1250 7650 50  0000 C CNN
+F 1 "1POS_CONN_PAD_30X30MM_H1MM" H 1900 7975 50  0001 C CNN
+F 2 "" H 1800 8100 50  0001 C CNN
+F 3 "N/A" H 1800 8100 50  0001 C CNN
+F 4 "1POS_CONN_PAD_30X30MM_H1MM" H 1308 7674 50  0001 C CNN "VAL"
+F 5 "N/A" H 2300 8250 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 2300 8250 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 2300 8250 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 2300 8250 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 2300 8250 50  0001 C CNN "Link"
+F 10 "N/A" H 2300 8250 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 2300 8250 50  0001 C CNN "BOM_IGNORE"
+	1    1250 7550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F09528A
+P 6850 4450
+AR Path="/5F09528A" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F09528A" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6850 4200 50  0001 C CNN
+F 1 "GND" H 6850 4300 50  0000 C CNN
+F 2 "" H 6850 4450 50  0001 C CNN
+F 3 "" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 3250 2    50   Input ~ 0
++VBAT_CELL
+Wire Wire Line
+	4950 3250 5150 3250
+Connection ~ 4950 3250
+Text GLabel 10600 3550 0    50   Input ~ 0
++VBAT_CELL
+Wire Wire Line
+	10600 3550 10800 3550
+Connection ~ 10800 3550
+Wire Wire Line
+	6850 4100 6850 4300
+Wire Wire Line
+	4500 8500 4500 8800
+Connection ~ 4500 8500
+Wire Wire Line
+	4500 8500 4600 8500
+Wire Wire Line
+	4350 8600 4350 9100
+Wire Wire Line
+	4350 9100 4500 9100
+Connection ~ 4350 8600
+Wire Wire Line
+	4350 8600 3900 8600
+Wire Wire Line
+	8050 3600 8300 3200
+Wire Wire Line
+	8650 4300 6850 4300
+Wire Wire Line
+	8650 3400 8650 3600
+Connection ~ 6850 4300
+Wire Wire Line
+	7700 3000 7700 2750
+Wire Wire Line
+	7700 2750 8650 2750
+Wire Wire Line
+	8050 3200 8300 3600
+Connection ~ 8650 3600
+Wire Wire Line
+	8650 3600 8650 3850
+Wire Wire Line
+	7700 3400 7700 3600
+Connection ~ 7700 3600
+Wire Wire Line
+	7700 3600 8050 3600
+Wire Wire Line
+	8300 3200 8350 3200
+Wire Wire Line
+	8050 3200 8000 3200
+Wire Wire Line
+	8650 2750 8650 3000
+Wire Wire Line
+	8300 3600 8650 3600
+Wire Wire Line
+	7700 3600 7100 3600
+Wire Wire Line
+	6850 3600 6850 3800
+Text Label 6850 3750 2    50   ~ 0
++VBAT
+$Comp
+L RESISTORS:RESC_100K_0603 R9
+U 1 1 5F1B094B
+P 8650 3950
+F 0 "R9" H 8718 3996 50  0000 L CNN
+F 1 "RESC_100K_0603" H 9300 4360 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 5150 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 8650 3950 50  0001 C CNN
+F 4 "100K" H 8718 3905 50  0000 L CNN "VAL"
+F 5 "CR0603-JW-104ELF" H 8700 5150 50  0001 C CNN "Manufacturer_PN"
+F 6 "Bourns Inc." H 8900 5050 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 8700 5050 50  0001 C CNN "Price for 1"
+F 8 "0.00580" H 8900 5050 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-JW-104ELF/CR0603-JW-104ELFCT-ND/3767631" H 8700 5150 50  0001 C CNN "Link"
+F 10 "N/A" H 8450 5050 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 8500 5150 50  0001 C CNN "BOM_IGNORE"
+	1    8650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4050 8650 4300
+Wire Wire Line
+	7700 2750 7100 2750
+Wire Wire Line
+	6850 2750 6850 3100
+Connection ~ 7700 2750
+Wire Wire Line
+	6850 3300 6850 3600
+Connection ~ 6850 3600
+Wire Wire Line
+	6850 4450 6850 4300
+Text GLabel 8850 2750 2    50   Input ~ 0
++VBAT_CELL
+$Comp
+L RESISTORS:RESC_1M_0603 R8
+U 1 1 5F2080BF
+P 7100 3200
+F 0 "R8" H 7100 3300 50  0000 L CNN
+F 1 "RESC_1M_0603" H 8020 3720 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7150 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7100 3200 50  0001 C CNN
+F 4 "1M" H 7100 3100 50  0000 L CNN "VAL"
+F 5 "RC0603FR-071ML" H 7150 4400 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 7350 4300 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 7150 4300 50  0001 C CNN "Price for 1"
+F 8 "0.00940" H 7350 4300 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071ML/311-1-00MHRCT-ND/729791" H 7150 4400 50  0001 C CNN "Link"
+F 10 "N/A" H 6900 4300 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 6950 4400 50  0001 C CNN "BOM_IGNORE"
+	1    7100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRANSISTORS:PMOS_30V_3.8A_SMD Q1
+U 1 1 5F21C6C3
+P 7700 3200
+F 0 "Q1" H 7900 3350 50  0000 L CNN
+F 1 "PMOS_30V_3.8A_SMD" H 8350 3625 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8250 3750 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf" H 8250 3750 50  0001 C CNN
+F 4 "DMP3099L-7" H 7700 3450 50  0000 L CNN "VAL"
+F 5 "DMP3099L-7" H 7970 4560 50  0001 C CNN "Manufacturer_PN"
+F 6 "Diodes Incorporated" H 7970 4560 50  0001 C CNN "Manufacturer"
+F 7 "0.33000" H 7970 4560 50  0001 C CNN "Price for 1"
+F 8 "0.11510" H 7970 4560 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3099L-7/DMP3099L-7DICT-ND/5218217" H 7970 4560 50  0001 C CNN "Link"
+F 10 "N/A" H 7970 4560 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 7970 4560 50  0001 C CNN "BOM_IGNORE"
+	1    7700 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L TRANSISTORS:PMOS_25V_460mA_SMD Q2
+U 1 1 5F220130
+P 8650 3200
+F 0 "Q2" H 8700 3350 50  0000 L CNN
+F 1 "PMOS_25V_460mA_SMD" H 9300 3625 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9200 3750 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FDV304P-D.PDF" H 9200 3750 50  0001 C CNN
+F 4 "FDV304P" H 8700 3450 50  0000 L CNN "VAL"
+F 5 "FDV304P" H 8920 4560 50  0001 C CNN "Manufacturer_PN"
+F 6 "ON Semiconductor" H 8920 4560 50  0001 C CNN "Manufacturer"
+F 7 "0.29000" H 8920 4560 50  0001 C CNN "Price for 1"
+F 8 "0.09810" H 8920 4560 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/on-semiconductor/FDV304P/FDV304PCT-ND/458957" H 8920 4560 50  0001 C CNN "Link"
+F 10 "N/A" H 8920 4560 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 8920 4560 50  0001 C CNN "BOM_IGNORE"
+	1    8650 3200
+	1    0    0    1   
+$EndComp
+Text Notes 7450 4750 0    50   ~ 0
+Reverse polarity protection circuit\nIf the protection is not needed place the \nbypass resistor and remove other components\n
+Wire Wire Line
+	8850 2750 8650 2750
+Connection ~ 8650 2750
+Wire Notes Line
+	800  2450 800  4850
+Wire Notes Line
+	800  4850 5950 4850
+Wire Notes Line
+	5950 4850 5950 2450
+Wire Notes Line
+	5950 2450 800  2450
+Wire Notes Line
+	6350 4950 9600 4950
+Wire Notes Line
+	9600 4950 9600 2450
+Wire Notes Line
+	9600 2450 6350 2450
+Wire Notes Line
+	6350 2450 6350 4950
+Wire Notes Line
+	10000 6250 15550 6250
+Wire Notes Line
+	15550 6250 15550 2450
+Wire Notes Line
+	15550 2450 10000 2450
+Wire Notes Line
+	10000 2450 10000 6250
+Wire Notes Line
+	5400 9750 5400 6950
+Wire Notes Line
+	5400 6950 950  6950
+Wire Notes Line
+	950  6950 950  9750
+Text Notes 11500 3150 0    50   ~ 0
+Max power dissipation = 60[mW]\n
+$Comp
+L CAPACITORS:CAPC_10uF_1210 C?
+U 1 1 5F04FD61
+P 14150 4000
+AR Path="/5F04FD61" Ref="C?"  Part="1" 
+AR Path="/5F0383B8/5F04FD61" Ref="C4"  Part="1" 
+F 0 "C4" H 14150 4100 50  0000 L CNN
+F 1 "CAPC_10uF_1210" H 16000 4350 50  0001 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 15000 4650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 15000 4400 50  0001 C CNN
+F 4 "10uF" H 14150 3900 50  0000 L CNN "VAL"
+F 5 "C1210C106M4PACTU" H 15150 4650 50  0001 C CNN "Manufacturer_PN"
+F 6 "KEMET" H 15300 4700 50  0001 C CNN "Manufacturer"
+F 7 "0.40000" H 15450 4700 50  0001 C CNN "Price for 1"
+F 8 "0.16810" H 15450 4700 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/kemet/C1210C106M4PACTU/399-8229-1-ND/3471952" H 15500 4650 50  0001 C CNN "Link"
+F 10 "N/A" H 15350 4600 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 15350 4500 50  0001 C CNN "BOM_IGNORE"
+	1    14150 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 7200 2650 0    50   ~ 0
+Max power dissipation = 100[mW]\n
+Text Notes 800  2350 0    200  ~ 0
+Battery charger
+Text Notes 6350 2350 0    200  ~ 0
+Battery cell\n
+Text Notes 10000 2350 0    200  ~ 0
+Boost converter 3.7 [V] -> 5 [V]\n
+Text Notes 950  6850 0    200  ~ 0
+Connectors
+Text Notes 5050 950  0    200  ~ 0
+Rechargable Li-ion 3.7[V] power bank
+Text Notes 7300 6850 0    200  ~ 0
+Test points
+$Comp
+L power:VCC #PWR?
+U 1 1 5F066C3C
+P 7800 7350
+AR Path="/5F066C3C" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F066C3C" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 7800 7200 50  0001 C CNN
+F 1 "VCC" H 7800 7500 50  0000 C CNN
+F 2 "" H 7800 7350 50  0001 C CNN
+F 3 "" H 7800 7350 50  0001 C CNN
+	1    7800 7350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 7600 0    50   Input ~ 0
+VOUT
+$Comp
+L power:GND #PWR?
+U 1 1 5F0671CD
+P 7800 7850
+AR Path="/5F0671CD" Ref="#PWR?"  Part="1" 
+AR Path="/5F0383B8/5F0671CD" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 7800 7600 50  0001 C CNN
+F 1 "GND" H 7800 7700 50  0000 C CNN
+F 2 "" H 7800 7850 50  0001 C CNN
+F 3 "" H 7800 7850 50  0001 C CNN
+	1    7800 7850
+	1    0    0    -1  
+$EndComp
+Text Label 7750 8250 0    50   ~ 0
+BOOST_EN
+Text Label 7750 8400 0    50   ~ 0
+BOOST_IN
+Text Label 7750 8850 0    50   ~ 0
++VBAT
+Text Label 7750 8550 0    50   ~ 0
+BOOST_FB
+Text Label 7750 8700 0    50   ~ 0
+BOOST_SW
+$Comp
+L RESISTORS:RESC_100K_0603 R10
+U 1 1 5F0683EB
+P 11200 3700
+F 0 "R10" V 11250 3500 50  0000 L CNN
+F 1 "RESC_100K_0603" H 11850 4110 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11250 4900 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 11200 3700 50  0001 C CNN
+F 4 "100K" V 11250 3800 50  0000 L CNN "VAL"
+F 5 "CR0603-JW-104ELF" H 11250 4900 50  0001 C CNN "Manufacturer_PN"
+F 6 "Bourns Inc." H 11450 4800 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 11250 4800 50  0001 C CNN "Price for 1"
+F 8 "0.00580" H 11450 4800 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-JW-104ELF/CR0603-JW-104ELFCT-ND/3767631" H 11250 4900 50  0001 C CNN "Link"
+F 10 "N/A" H 11000 4800 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 11050 4900 50  0001 C CNN "BOM_IGNORE"
+	1    11200 3700
+	0    1    1    0   
+$EndComp
+Text Label 7750 9000 0    50   ~ 0
+-VBAT
+Wire Wire Line
+	7800 7350 7800 7400
+Wire Wire Line
+	7800 7400 8300 7400
+Wire Wire Line
+	7800 7600 8300 7600
+Wire Wire Line
+	7800 7850 7800 7800
+Wire Wire Line
+	7800 7800 8300 7800
+Wire Wire Line
+	7750 8250 8300 8250
+Wire Wire Line
+	7750 8400 8300 8400
+Wire Wire Line
+	7750 8550 8300 8550
+Wire Wire Line
+	7750 8700 8300 8700
+Wire Wire Line
+	7750 9000 8300 9000
+Wire Wire Line
+	7750 8850 8300 8850
+Wire Notes Line
+	7350 7000 7350 9400
+Wire Notes Line
+	7350 9400 8950 9400
+Wire Notes Line
+	8950 9400 8950 7000
+Wire Notes Line
+	8950 7000 7350 7000
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP1
+U 1 1 5F0E0648
+P 8350 7400
+F 0 "TP1" V 8350 7600 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 7790 50  0001 C CNN
+F 2 "" H 8900 7950 50  0001 C CNN
+F 3 "N/A" H 8900 7950 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 7412 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 8180 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 8180 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 8180 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 8180 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 8180 50  0001 C CNN "Link"
+F 10 "NO" H 9550 8180 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 8180 50  0001 C CNN "BOM_IGNORE"
+	1    8350 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP2
+U 1 1 5F0E2414
+P 8350 7600
+F 0 "TP2" V 8350 7800 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 7990 50  0001 C CNN
+F 2 "" H 8900 8150 50  0001 C CNN
+F 3 "N/A" H 8900 8150 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 7612 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 8380 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 8380 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 8380 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 8380 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 8380 50  0001 C CNN "Link"
+F 10 "NO" H 9550 8380 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 8380 50  0001 C CNN "BOM_IGNORE"
+	1    8350 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP3
+U 1 1 5F0E27E4
+P 8350 7800
+F 0 "TP3" V 8350 8000 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 8190 50  0001 C CNN
+F 2 "" H 8900 8350 50  0001 C CNN
+F 3 "N/A" H 8900 8350 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 7812 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 8580 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 8580 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 8580 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 8580 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 8580 50  0001 C CNN "Link"
+F 10 "NO" H 9550 8580 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 8580 50  0001 C CNN "BOM_IGNORE"
+	1    8350 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP4
+U 1 1 5F0E29B6
+P 8350 8250
+F 0 "TP4" V 8350 8450 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 8640 50  0001 C CNN
+F 2 "" H 8900 8800 50  0001 C CNN
+F 3 "N/A" H 8900 8800 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 8262 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 9030 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 9030 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 9030 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 9030 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 9030 50  0001 C CNN "Link"
+F 10 "NO" H 9550 9030 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 9030 50  0001 C CNN "BOM_IGNORE"
+	1    8350 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP5
+U 1 1 5F0E2C33
+P 8350 8400
+F 0 "TP5" V 8350 8600 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 8790 50  0001 C CNN
+F 2 "" H 8900 8950 50  0001 C CNN
+F 3 "N/A" H 8900 8950 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 8412 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 9180 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 9180 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 9180 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 9180 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 9180 50  0001 C CNN "Link"
+F 10 "NO" H 9550 9180 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 9180 50  0001 C CNN "BOM_IGNORE"
+	1    8350 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP6
+U 1 1 5F0E2F88
+P 8350 8550
+F 0 "TP6" V 8350 8750 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 8940 50  0001 C CNN
+F 2 "" H 8900 9100 50  0001 C CNN
+F 3 "N/A" H 8900 9100 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 8562 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 9330 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 9330 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 9330 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 9330 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 9330 50  0001 C CNN "Link"
+F 10 "NO" H 9550 9330 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 9330 50  0001 C CNN "BOM_IGNORE"
+	1    8350 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP7
+U 1 1 5F0E31B8
+P 8350 8700
+F 0 "TP7" V 8350 8900 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 9090 50  0001 C CNN
+F 2 "" H 8900 9250 50  0001 C CNN
+F 3 "N/A" H 8900 9250 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 8712 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 9480 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 9480 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 9480 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 9480 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 9480 50  0001 C CNN "Link"
+F 10 "NO" H 9550 9480 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 9480 50  0001 C CNN "BOM_IGNORE"
+	1    8350 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP8
+U 1 1 5F0E347A
+P 8350 8850
+F 0 "TP8" V 8350 9050 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 9240 50  0001 C CNN
+F 2 "" H 8900 9400 50  0001 C CNN
+F 3 "N/A" H 8900 9400 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 8862 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 9630 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 9630 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 9630 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 9630 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 9630 50  0001 C CNN "Link"
+F 10 "NO" H 9550 9630 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 9630 50  0001 C CNN "BOM_IGNORE"
+	1    8350 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPOINTS:TP_12.5X12.5_MM TP9
+U 1 1 5F0E3730
+P 8350 9000
+F 0 "TP9" V 8350 9200 50  0000 C CNN
+F 1 "TP_12.5X12.5_MM" H 8970 9390 50  0001 C CNN
+F 2 "" H 8900 9550 50  0001 C CNN
+F 3 "N/A" H 8900 9550 50  0001 C CNN
+F 4 "TP_12.5X12.5_MM" V 8256 9012 50  0001 C CNN "VAL"
+F 5 "N/A" H 9550 9780 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 9550 9780 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 9550 9780 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 9550 9780 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 9550 9780 50  0001 C CNN "Link"
+F 10 "NO" H 9550 9780 50  0001 C CNN "ASSEMBLY"
+F 11 "YES" H 9550 9780 50  0001 C CNN "BOM_IGNORE"
+	1    8350 9000
+	0    1    1    0   
+$EndComp
+Text Notes 11850 10200 0    100  ~ 0
+Rechargable Li-ion 3.7[V] power bank
+Text Notes 12400 7800 0    200  ~ 0
+Specifications:
+Text Notes 12450 9200 0    94   ~ 0
+Vin (VCC) = 5[V]\nVout = 5[V]\nMax output current = 0.6[A]\nBattery charge current = 1[A]\n*For other charge current replace Rprog\n** The max output current and power\nare determined by the battery cell\n\n
+Text Notes 5800 1200 0    94   ~ 0
+The design is intended for 3.7[V] Li-Ion 16850 battery cell
+Wire Wire Line
+	4500 8300 4500 8350
+$Comp
+L RESISTORS:RESC_10K_0603 R?
+U 1 1 5F0951B7
+P 3900 8250
+AR Path="/5F0951B7" Ref="R?"  Part="1" 
+AR Path="/5F0383B8/5F0951B7" Ref="R16"  Part="1" 
+F 0 "R16" H 3850 8100 50  0000 C CNN
+F 1 "RESC_10K_0603" H 4850 9150 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 9450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 3900 8250 50  0001 C CNN
+F 4 "10K" H 3800 8400 50  0000 C CNN "VAL"
+F 5 "RNCP0603FTD10K0" H 3950 9450 50  0001 C CNN "Manufacturer_PN"
+F 6 "Stackpole Electronics Inc" H 4150 9350 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 3950 9350 50  0001 C CNN "Price for 1"
+F 8 "0.02730" H 4150 9350 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 3950 9450 50  0001 C CNN "Link"
+F 10 "N/A" H 3700 9350 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 3750 9450 50  0001 C CNN "BOM_IGNORE"
+	1    3900 8250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 3100 7100 2750
+Connection ~ 7100 2750
+Wire Wire Line
+	7100 2750 6850 2750
+Wire Wire Line
+	7100 3300 7100 3600
+Connection ~ 7100 3600
+Wire Wire Line
+	7100 3600 6850 3600
+$Comp
+L RESISTORS:RESC_0R_0603 R7
+U 1 1 5F1237A3
+P 6850 3200
+F 0 "R7" H 6850 3300 50  0000 L CNN
+F 1 "RESC_0R_0603" H 7770 3720 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6850 3200 50  0001 C CNN
+F 4 "0R" H 6850 3100 50  0000 L CNN "VAL"
+F 5 "RC0603JR-070RL" H 6900 4400 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 7100 4300 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 6900 4300 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 7100 4300 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-070RL/311-0-0GRCT-ND/729622" H 6900 4400 50  0001 C CNN "Link"
+F 10 "N/A" H 6650 4300 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 6700 4400 50  0001 C CNN "BOM_IGNORE"
+	1    6850 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 6700 3450 1    50   ~ 0
+Bypass resistor
+Text Notes 6800 3450 0    100  ~ 0
+X\nNC\n
+Text Notes 3850 8450 0    100  ~ 0
+X\nNC\n
+Text Notes 3500 8450 0    100  ~ 0
+X\nNC\n
+Text Notes 3500 9100 0    100  ~ 0
+X\nNC\n
+Text Notes 3850 9100 0    100  ~ 0
+X\nNC\n
+$Comp
+L RESISTORS:RESC_0R_0603 R19
+U 1 1 5F126F4C
+P 4500 8900
+F 0 "R19" H 4500 9000 50  0000 L CNN
+F 1 "RESC_0R_0603" H 5420 9420 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 10100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 8900 50  0001 C CNN
+F 4 "0R" H 4500 8800 50  0000 L CNN "VAL"
+F 5 "RC0603JR-070RL" H 4550 10100 50  0001 C CNN "Manufacturer_PN"
+F 6 "Yageo" H 4750 10000 50  0001 C CNN "Manufacturer"
+F 7 "0.1" H 4550 10000 50  0001 C CNN "Price for 1"
+F 8 "0.00770" H 4750 10000 50  0001 C CNN "Price for 100"
+F 9 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-070RL/311-0-0GRCT-ND/729622" H 4550 10100 50  0001 C CNN "Link"
+F 10 "N/A" H 4300 10000 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 4350 10100 50  0001 C CNN "BOM_IGNORE"
+	1    4500 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 9000 4500 9100
+Text Notes 13350 6150 0    50   ~ 0
+After tests decide if bigger inductor is needed (22uH)\nand bigger output capacitor (22uF)\n
+Text Notes 11850 10500 0    100  ~ 0
+Designed by Shahar S.
+Text Notes 13000 11050 0    50   ~ 0
+7-Jul-2020
+Text Notes 15450 11050 0    50   ~ 0
+0.11
+$Bitmap
+Pos 15700 10300
+Scale 0.800000
+Data
+89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 E0 00 00 00 E0 08 03 00 00 00 2D F3 9A 
+D3 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 7E 50 4C 54 45 FF FF FF F8 F8 F8 F2 F2 
+F2 E6 E6 E6 87 87 87 58 58 58 6C 6C 6C D2 D2 D2 9B 9B 9B 00 00 00 5B 5B 5B 33 33 33 37 37 37 17 
+17 17 E4 E4 E4 B2 B2 B2 C5 C5 C5 8E 8E 8E FB FB FB A0 A0 A0 7E 7E 7E 4A 4A 4A EA EA EA 11 11 11 
+CE CE CE 0D 0D 0D 92 92 92 AD AD AD 72 72 72 EF EF EF 45 45 45 23 23 23 A7 A7 A7 51 51 51 2B 2B 
+2B D9 D9 D9 D6 D6 D6 BD BD BD 1B 1B 1B 64 64 64 3E 3E 3E 88 88 88 EF C7 6F FA 00 00 0A 3A 49 44 
+41 54 78 9C ED 9D 6B 9F 72 50 10 C0 97 6E A4 10 42 17 25 92 FA FE 5F F0 D9 6D DB AD 2C CE 9C 99 
+11 3D 3F FF F7 E5 0C E7 32 F7 F3 F1 D1 D3 D3 D3 D3 D3 D3 D3 D3 D3 F3 DF A2 A8 D5 28 6D 0F 8E 81 
+C1 70 54 CD 78 D2 F6 F0 E8 68 7A 1D E3 F7 FF 86 D3 5A 01 8D 41 DB E3 A3 A2 CE 6A 05 9C BF FD 1C 
+35 E7 B5 02 EA 56 DB 03 A4 62 D7 CB A7 2F 9C B6 47 48 C4 15 08 F8 F6 BB 8C 27 10 70 E9 B7 3D 42 
+1A EA 48 20 A0 F1 E6 BB 8C 69 08 04 0C DE 7C 97 09 57 02 01 F5 75 DB 43 A4 B1 11 C9 A7 6F DB 1E 
+22 09 67 21 14 70 14 B5 3D 48 0A EA 58 28 A0 61 B6 3D 48 0A E6 4E 28 60 10 B6 3D 48 0A E1 5E 28 
+A0 1E B7 3D 48 0A 96 70 13 D5 75 AF ED 41 52 58 8B E5 D3 0F 6D 0F 92 80 22 DE 63 74 3D 51 DB 1E 
+26 1E FF 00 10 50 4F DB 1E 26 9E A3 48 51 BB 92 B5 3D CC 07 52 B9 43 2B 3B 41 04 94 53 D6 A2 B4 
+39 03 4B D1 4E 86 26 A3 78 40 F6 98 4F 65 4D C2 E6 55 AC 5D B0 6D CA C2 52 B4 B9 AE AF F2 23 FC 
+17 5B 90 80 4B F8 3B 33 87 5F 07 EB B6 21 ED CE FD 9E 70 67 0B BA ED 29 A0 3D 46 4F C0 BB 4C 78 
+FB 43 AF 11 09 EF CE 87 2D D0 D7 67 26 20 01 75 1B F6 77 AA F6 EB C0 6A 42 C2 47 E7 CA 1E 66 A5 
+8A 8D C1 6F 62 D0 BF D9 8F F3 81 7D 1D 3A 71 F0 38 A4 95 07 99 56 16 4C 3E 7D 08 D8 65 22 F7 59 
+AD 1D 33 4B 18 17 37 FC 25 E0 F4 BA 00 05 9C 8A 17 F5 31 2F FE 88 75 A7 71 CA 9C 7F 17 D1 3B 34 
+CF 40 01 F7 A2 97 E5 68 25 1A 03 E3 2C 55 B4 D2 C5 74 A8 1D 97 19 2F 81 F2 7D 1A BD 8B 63 DD E9 
+9D 96 1F 37 6C B3 54 D1 2A DC EF FB 75 D5 34 51 27 8B 33 70 87 B9 89 E8 65 55 FF A5 6C AA 66 02 
+D7 2C D5 82 8A 07 E8 7A 5E EA D5 8C AC 31 C0 D0 2D B0 3A C4 A5 7A E0 C0 AB 7E 53 2C 12 3A B5 01 
+BE BD 56 DC 20 9C E3 02 BA F6 8A 24 9E 5D 9C A9 8E 55 FB 67 0C EB 50 A9 0F 60 7E 6E 81 4F 1F D1 
+CF 10 1F EF CE 6A 14 3F 9D 3F A6 57 3D 7B 78 24 74 AA D6 DF 9D 59 FC F3 11 9D 54 3B 08 06 24 E6 
+3C 0C 7F 3E A3 63 8B F7 29 EA 2C AD 59 7F 77 C6 D7 C5 13 D9 1E 50 35 13 B0 CF AD EB 77 F1 17 90 
+C9 40 D2 DA 4A CF BF 12 8C D8 4C 5D F8 A9 20 66 B6 0E 07 19 4C 55 A7 CC 52 C7 85 4E B8 E0 0C B2 
+DD 25 48 76 20 63 F9 0B BC 84 7F F4 B3 8E B2 45 BA AD 62 F2 86 F1 2A 70 EB 50 1C 18 EA 0E 98 BD 
+54 AD 4F 70 E9 16 98 38 31 20 F2 D5 1D A6 98 10 95 4F 51 49 5E 4B 80 73 AD 66 42 25 A6 2B AC 71 
+C9 36 8E 28 05 A4 2B 1C B0 CA 8C 09 D4 25 5A 26 01 7A E5 4A C8 A4 8C D6 B6 20 E4 69 38 30 DF 7B 
+BB 8C 29 DA 76 D4 FD 49 9A D0 52 A5 6C 1E 0B A8 41 5C 92 7C D0 00 51 7B E4 44 F9 3E A2 3F 1E D7 
+4E C1 90 CB 37 E9 F2 24 9D 6F C8 F2 89 53 5A DB 04 6B 09 3E A1 74 D7 AC D8 F1 A4 81 1D B1 7E CE 
+C6 E1 4A 5F E8 AA 69 EF 71 25 B4 AB B0 58 FB AB 61 9A A0 5F 80 03 61 AF 04 69 04 96 93 75 70 92 
+B2 56 5C 74 D0 34 3C F0 C6 B0 4D 4E BF 35 07 27 BC 11 58 4E D8 B1 49 CA 9E AC EF 5C DA 16 E9 89 
+9C 3F 9D 2B ED 92 93 6D D5 40 39 C9 A0 4B 4A 37 EB 11 71 03 9A D5 F3 1A 2E EC 55 79 4A B7 EC C2 
+33 7B 9A F0 A4 63 5E 60 8D 5B C0 61 DB 12 15 40 3B 7B 2B 48 B9 23 B8 64 98 F7 51 51 32 C9 EB C9 
+59 53 B7 FD AE 69 6A 9F BA 1A 6B CD 53 D6 B6 38 25 5C 18 E5 53 BB 75 46 7C C3 59 97 17 76 32 DD 
+82 EA D3 BE E3 70 9C 11 81 71 18 7B 6B CD D5 D6 C3 ED E8 CC F1 C6 0E 6C 45 4F 69 7D 3F 0A 00 AB 
+C3 3A 4B EF E3 51 4C 5B CB C9 CA FB 8A 4D 21 A5 C6 27 CE EB C9 DF 97 AD A4 EE 88 18 7E CC 99 14 
+52 E2 19 B1 74 AB CA 2C 54 2B 27 89 38 97 28 C2 A9 03 52 C6 59 C9 5E AB AB 22 51 EA F3 5D 45 2C 
+78 04 14 75 6B A8 23 17 69 FD FE 82 E0 0B 99 B1 9C 14 21 7E 00 C9 9F 84 E7 BF 38 19 E1 23 72 9C 
+14 84 33 C2 C8 40 BB C0 04 1F 27 1F 31 B8 66 84 ED 36 AA E5 83 7A F6 52 74 FC 6A 4E B7 29 22 B4 
+CB D7 80 6B C3 03 B4 2A 78 A0 AC C2 28 B5 63 4F DC CA A0 82 99 4C 70 79 80 9E A5 C6 D6 B5 D3 48 
+F2 40 74 94 E8 68 69 DE C1 20 9C 0F 2B 39 CF 33 29 06 99 2C C7 8B 4D E8 2B 20 31 55 FF 68 2D F2 
+1D 59 8F 1A CA BD D3 0F 8B FA C4 D3 6C EA 6D 42 B3 EE 63 46 C7 CC F5 0E 3C EE 4F 40 C5 5C 01 1E 
+9F C1 69 B7 D5 AC 89 5F 94 52 F1 27 9B C5 78 99 B0 A5 A6 25 F2 E6 B6 4F D1 27 9E D9 EF F2 61 6C 
+9B F7 77 EC 7B BB 84 37 B6 82 89 DD 89 3A B0 C9 B1 DA CF EE F5 E2 EC 89 22 28 B7 AC C3 EE 36 F8 
+2D D0 67 CF CE C6 79 65 6D EE 08 DD E8 C7 F1 C6 2D 20 D2 5B C2 FE 09 A7 4D 09 88 6D 81 C3 5D A9 
+D1 94 80 E8 D8 D6 80 EC 1A 79 A6 29 01 25 7A 53 3C C3 9D EA D0 94 80 90 BA FF 72 98 63 90 4D 09 
+88 37 61 98 53 37 1B 12 70 8F 77 05 31 A7 88 37 24 E0 0E DF 97 D8 E1 4D 8A 6B 48 C0 9C E0 70 E6 
+1D 49 43 02 52 DA 4D F2 2A 8D 0D 09 48 E9 74 C7 7B D4 37 24 20 C5 1B CB 1B 87 6C 48 40 4A 16 D9 
+5B 08 48 89 BC F2 9E F4 FD 1A C4 21 D3 07 AE C8 5B EC A2 FF FD 39 48 48 86 7F 0F 4D 86 90 C0 C2 
+9C 8E D3 41 6B 82 37 E9 B6 B7 07 91 EC B0 41 3B 85 B9 C2 A6 73 3E 19 7C 28 B2 9C DE AB 86 05 E9 
+17 65 2F 54 6C 4C 40 AC 67 9B BB 2D C1 AF 80 A4 44 98 32 70 B1 09 F6 4A D3 5F C3 4D B1 BC 91 C1 
+9A 74 8E 89 2E B1 9A 4A AB E4 B0 75 1F 76 73 45 35 ED D8 9B 9E B9 0E 5A 44 FF 0C 7C 98 BE C0 69 
+36 F2 34 3B 8D 4A 52 9E 1D 7F 62 AD C7 3B 8E 20 CF 54 3A A3 9A A5 23 C1 2C BF 6C 42 53 F0 6C D5 
+0C 37 C3 E9 8C 98 D1 29 1D A3 A7 3D 6F 6E 8C 3C D7 AE 8D D0 3F A1 44 9F 52 2E C6 94 3C 0B B9 D3 
+3E C4 C7 5D 92 6B C0 BA 74 4A 0A 70 94 41 18 A3 57 C6 59 26 4F 06 D6 F5 BF 0C 43 B3 4D 95 92 37 
+8A CF F6 5D C2 CF 0A 1F 72 6D 43 29 0C 75 76 F8 C5 0F CE E5 32 F1 09 16 23 7A DE F6 04 BF FA 13 
+58 B6 61 4A 38 20 18 F2 29 29 35 13 D5 5D 8E EF 28 16 C1 86 60 A9 B2 23 E9 F8 E2 8C DF 0B 45 4F 
+64 69 F6 10 91 AC 34 C3 AA DD BE 43 92 FE 32 E7 A9 35 A7 45 CE F7 C3 EA 8F E8 BB 34 13 57 3E 23 
+AE 14 C8 ED 50 75 9C AB DE 73 4A 4D 8C 89 59 E4 A3 37 E2 3C 54 AC 14 AA FA 99 70 DD 71 1B 13 ED 
+C5 AA 90 28 D5 51 CF 76 E7 16 E0 8A B6 3A 2A 6B 8C 4C 5A E2 0F 5F 3B 0B 62 9B 87 EA C4 20 DA F6 
+C5 A0 C5 FC 10 92 CC FD 6A 0F 0D AD 03 48 CC 26 1F AD 02 B4 46 DB 20 FD 2F EB CD 8C 14 9F FA B0 
+E6 A4 A7 FC 2F 5B CB AA 2F 08 DB 41 ED 56 E0 E3 0F 7A C9 BA 05 11 78 D7 69 7D 3C 14 5F 18 C5 57 
+E0 7A 05 AF CD D4 5B A4 F8 80 19 5F 89 F2 15 74 33 12 A3 3E D4 04 BA 82 B1 F4 7F B9 2F 7F C5 6E 
+07 22 EF 9A 85 3C 29 28 A9 0E A5 F8 B8 E2 A2 93 28 B7 12 59 0F 22 BC AA 49 1A E4 5C 12 37 70 C5 
+29 A4 FC 0D 73 22 54 7E 40 20 6E 70 8A 73 DB 11 7A 6B 57 80 7B D1 4B 71 34 1B 99 89 3E 66 5E 83 
+C8 6C 6A 48 A0 10 59 04 CD 7B 4C 20 B7 02 03 92 BE 0D BC 67 B2 08 B1 BF 76 01 64 71 9F 07 8A 17 
+C4 B8 3F 27 75 48 2F 60 23 F5 0D D8 4E 30 40 2A A4 7C 93 14 7B 6B C1 08 18 F0 41 DA BD 7B AE A6 
+47 E8 56 01 31 F0 01 D8 09 32 62 9A A4 B0 FB 90 FF 02 EE 34 A1 62 15 52 9E EE 71 48 25 4D C6 E9 
+85 55 74 59 DC 4E 0A D6 33 24 B1 44 06 D8 34 4A 52 23 84 1B E8 24 9A B1 44 4C 19 5D 63 8E CF 6C 
+FC 21 45 FB 44 65 62 AF 29 36 08 49 B6 2A F0 19 8E 72 49 95 E8 18 B6 C0 A0 16 82 F7 DA CB ED 70 
+F8 46 DE 34 E7 DA 11 5D B1 18 C8 2D 7F 7C E5 20 29 0D 01 7D 40 C9 B7 04 C3 07 62 76 04 DB 17 FF 
+54 E9 A6 6E 29 BE DF CA 16 DD 88 93 70 65 8F B4 D7 92 12 E0 C1 6A DD 94 FB 6C E4 95 28 9B 90 AE 
+82 9C A4 84 00 EC 4C FE 91 94 40 0C EE EA 97 09 FE 81 A8 BD 9B 12 88 C1 4C 52 B4 CF 59 47 2A C1 
+94 74 15 8C 17 91 22 60 8E 32 D4 08 B9 F1 28 37 29 A1 BD 0B EE BA 27 42 56 5C 8C 52 67 32 EC 29 
+31 43 EA 87 E8 39 83 93 EF 53 42 E4 AA C0 56 F1 22 2D B3 00 EF 7D C2 7D C3 3D D6 63 89 53 48 57 
+14 C7 05 F0 22 D7 FD D3 AB 97 B1 74 9F 79 B6 7B 81 AE 28 9A 63 C6 06 CC D2 24 1E A4 97 87 D1 E0 
+6D D0 87 8E FA AB 7C 32 C8 20 9E 8C 98 24 DF A7 84 C2 E0 CF F8 3A 23 27 DB 9F 8F 4D B8 2F E8 1E 
+88 99 66 5F D3 60 30 14 CD A0 80 EE 58 13 7C C3 BD 76 3B F3 94 2C FF 3E 57 28 8F BC D5 67 2D E3 
+DB 4B 52 AC 7A 8F 49 A0 31 04 99 6A DD B2 A3 07 9D 25 B2 BE 36 89 13 25 34 A9 7E FD C3 59 7B 30 
+96 D3 5A 9F 89 CB 12 44 AB 9E A5 F3 42 4E B6 6A 4D 03 5A 8F 7D 6B 7F D6 9E A7 B8 B3 A9 5E 24 31 
+E9 59 77 B2 8A 47 1C FE 6E 27 7E 48 73 02 29 E1 DF 09 30 A9 F8 88 73 BE E8 4B E9 79 18 78 DC 99 
+1C 55 A8 6E D9 2A 59 71 86 40 4B AC 51 A3 81 AB 8F 2A 39 96 04 60 79 43 BC C5 BD 34 18 72 A5 13 
+C3 50 E3 C2 47 5C C5 CC 4F 78 D6 4B 77 F5 C5 02 4D 10 3E 65 8E 9F 78 F6 CF 47 B2 87 57 98 BF 6A 
+F5 3D E2 3F 68 4B 2B AD 81 17 FC 1B 26 4C 5C DE 44 3F 30 F6 AF 6B 91 39 13 EF C6 6D 96 0A AB 75 
+9A 23 1A 06 0D CA F7 7D 1E B6 F6 F9 AE 38 D6 92 45 FF AC C2 9E 8E D9 53 A8 24 31 BD 11 D6 7E 87 
+E0 34 F8 DF 50 5E BE 7F F7 F4 F4 F4 F4 F4 F4 F4 F4 F4 F4 F4 FC 8F FC 03 D2 9D 79 FA 0F 53 72 2D 
+00 00 00 00 49 45 4E 44 AE 42 60 82 
+EndData
+$EndBitmap
+Text Notes 12200 10950 0    100  ~ 0
+Main
+Text Notes 12450 9600 0    100  ~ 0
+X\nNC\n
+Text Notes 12650 9500 0    94   ~ 0
+- Marks 'not connected' components
+Wire Notes Line
+	950  9750 5400 9750
+Wire Wire Line
+	4750 7400 5000 7400
+$Comp
+L CONNECTORS:1POS_CONN_PAD_30X30MM_H1MM J?
+U 1 1 5F095267
+P 5150 7400
+AR Path="/5F095267" Ref="J?"  Part="1" 
+AR Path="/5F0383B8/5F095267" Ref="J3"  Part="1" 
+F 0 "J3" H 5150 7500 50  0000 C CNN
+F 1 "1POS_CONN_PAD_30X30MM_H1MM" H 5800 7825 50  0001 C CNN
+F 2 "" H 5700 7950 50  0001 C CNN
+F 3 "N/A" H 5700 7950 50  0001 C CNN
+F 4 "1POS_CONN_PAD_30X30MM_H1MM" H 5208 7524 50  0001 C CNN "VAL"
+F 5 "N/A" H 6200 8100 50  0001 C CNN "Manufacturer_PN"
+F 6 "N/A" H 6200 8100 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 6200 8100 50  0001 C CNN "Price for 1"
+F 8 "N/A" H 6200 8100 50  0001 C CNN "Price for 100"
+F 9 "N/A" H 6200 8100 50  0001 C CNN "Link"
+F 10 "N/A" H 6200 8100 50  0001 C CNN "ASSEMBLY"
+F 11 "N/A" H 6200 8100 50  0001 C CNN "BOM_IGNORE"
+	1    5150 7400
+	-1   0    0    -1  
+$EndComp
+Text Notes 12550 2650 0    50   ~ 0
+Max power dissipation = 210[mW]\n
+$EndSCHEMATC

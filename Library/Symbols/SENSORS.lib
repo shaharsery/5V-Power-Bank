@@ -1,0 +1,63 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NTC_10K_3380K_0603
+#
+DEF NTC_10K_3380K_0603 NTC 0 0 N Y 1 F N
+F0 "NTC" -150 100 50 H V C CNN
+F1 "NTC_10K_3380K_0603" 600 425 50 H I C CNN
+F2 "RESISTORS:RESC_0603_HandSolder" 500 550 50 H I C CNN
+F3 "" 500 550 50 H I C CNN
+F4 "10K" 150 100 50 H V C CNN "VAL"
+F5 "NCU18XH103F60RB" 750 1050 50 H I C CNN "Manufacturer_PN"
+F6 "Murata Electronics" 750 1050 50 H I C CNN "Manufacturer"
+F7 "0.12000" 1000 1000 50 H I C CNN "Price for 1"
+F8 "0.06360" 1000 1000 50 H I C CNN "Price for 100"
+F9 "https://www.digikey.com/product-detail/en/murata-electronics/NCU18XH103F60RB/490-16279-1-ND/7363262" 750 1050 50 H I C CNN "Link"
+F10 "N/A" 1000 1000 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 1000 1000 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+T 0 0 -75 39 0 0 0 -t° Normal 0 C C
+S -100 -40 100 40 1 1 10 N
+P 4 1 1 0 -100 -70 -60 -70 60 70 100 70 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Template
+#
+DEF Template U 0 0 N Y 1 F N
+F0 "U" 100 100 50 H V C CNN
+F1 "Template" 650 425 50 H I C CNN
+F2 "" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "N/A" 150 -100 50 H V C CNN "VAL"
+F5 "N/A" 150 -100 50 H I C CNN "Manufacturer_PN"
+F6 "N/A" 150 -100 50 H I C CNN "Manufacturer"
+F7 "N/A" 150 -100 50 H I C CNN "Price for 1"
+F8 "N/A" 150 -100 50 H I C CNN "Price for 100"
+F9 "N/A" 150 -100 50 H I C CNN "Link"
+F10 "N/A" 150 -100 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 150 -100 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1POS_CONN_PAD_30X30MM
+D 1 position connector pad 30X30 mm (solder connection)
+K CONNECTOR 1 POS PAD
+F N/A
+$ENDCMP
+#
+$CMP 1POS_CONN_PAD_30X30MM_H1MM
+D 1 position connector pad 30X30 mm (solder connection) with 1mm hole
+K CONNECTOR 1 POS PAD
+F N/A
+$ENDCMP
+#
+$CMP Micro_USB_CONN
+D MCR-B-S-RA-SMT-EH4B-T/R
+K USB micro connector
+F http://www.adam-tech.com/downloader.php?p=MCR-B-S-RA-SMT-EH4B-TR.pdf
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K SENSOR SENSORS
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP USB-A_CONN
+D USB-A (USB TYPE-A) USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle
+K USB CONNECTOR FEMALE
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=292303&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+#End Doc Library

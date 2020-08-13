@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\Shahar\Projects\Electronics\Projects\Battery charger\DSN\Battery Charger Rev 0.21\Battery Charger Rev 0.3.sch</source>
+    <date>7/18/2020 12:32:38 AM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Battery Charger Rev 0.3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>18650 Li-ion Battery Cell</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DF4D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>RESC_1K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&amp;part_id=729624</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">RC0603JR-071KL</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="VAL">1K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_1K_0603" description="1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DF62</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CAPC_1uF_0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B105MO8NNWC.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105MO8NNWC/1276-6524-1-ND/5961383</field>
+        <field name="Manufacturer">CL10B105MO8NNWC</field>
+        <field name="Manufacturer_PN">CL10B105MO8NNWC</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.01960</field>
+        <field name="VAL">1uF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_1uF_0603" description="1µF ±20% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DF70</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>RESC_1K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&amp;part_id=729624</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">RC0603JR-071KL</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="VAL">1K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_1K_0603" description="1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DF7F</tstamp>
+    </comp>
+    <comp ref="NTC1">
+      <value>NTC_10K_3380K_0603</value>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/thermistor/r03e.ashx?la=en-us</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics/NCU18XH103F60RB/490-16279-1-ND/7363262</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer_PN">NCU18XH103F60RB</field>
+        <field name="Price for 1">0.12000</field>
+        <field name="Price for 100">0.06360</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="SENSORS" part="NTC_10K_3380K_0603" description="NTC Thermistor 10k 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DF8E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>RESC_124K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT124K/RMCF0603FT124KCT-ND/1943121</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RMCF0603FT124K</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00650</field>
+        <field name="VAL">124K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_124K_0603" description="124 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DF9D</tstamp>
+    </comp>
+    <comp ref="DS1">
+      <value>LEDC_BLUE_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060BS75000.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060BS75000/732-4966-1-ND/4489893</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_PN">150060BS75000</field>
+        <field name="Price for 1">0.16</field>
+        <field name="Price for 100">0.125</field>
+        <field name="VAL">BLUE</field>
+      </fields>
+      <libsource lib="LEDS" part="LEDC_BLUE_0603" description="Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DFAE</tstamp>
+    </comp>
+    <comp ref="DS2">
+      <value>LEDC_GREEN_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150060VS75000.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060VS75000/732-4980-1-ND/4489904</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_PN">150060VS75000</field>
+        <field name="Price for 1">0.14</field>
+        <field name="Price for 100">0.114</field>
+        <field name="VAL">GREEN</field>
+      </fields>
+      <libsource lib="LEDS" part="LEDC_GREEN_0603" description="Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DFBC</tstamp>
+    </comp>
+    <comp ref="DS3">
+      <value>LEDC_RED_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060RS75000/732-4978-1-ND/4489899</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_PN">150060RS75000</field>
+        <field name="Price for 1">0.14</field>
+        <field name="Price for 100">0.114</field>
+        <field name="VAL">RED</field>
+      </fields>
+      <libsource lib="LEDS" part="LEDC_RED_0603" description="Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DFCA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Micro_USB_CONN</value>
+      <datasheet>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/adam-tech/MCR-B-S-RA-SMT-EH4B-T-R/2057-MCR-B-S-RA-SMT-EH4B-T-RCT-ND/9833110</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Manufacturer_PN">MCR-B-S-RA-SMT-EH4B-T/R</field>
+        <field name="Price for 1">0.37000</field>
+        <field name="Price for 100">0.24480</field>
+        <field name="VAL">MicroUSB connector</field>
+      </fields>
+      <libsource lib="CONNECTORS" part="Micro_USB_CONN" description="MCR-B-S-RA-SMT-EH4B-T/R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32DFE3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>CAPC_10uF_0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61E106KA73D/490-18214-1-ND/9867943</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer_PN">GRM188R61E106KA73D</field>
+        <field name="Price for 1">0.36000</field>
+        <field name="Price for 100">0.14850</field>
+        <field name="VAL">10uF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_10uF_0603" description="10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E009</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB-A_CONN</value>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=292303&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292303-1/A31726-ND/773786</field>
+        <field name="Manufacturer">TE Connectivity AMP Connectors</field>
+        <field name="Manufacturer_PN">292303-1</field>
+        <field name="Price for 1">1.48000</field>
+        <field name="Price for 100">1.14950</field>
+        <field name="VAL">USB_TYPEA_CONN</field>
+      </fields>
+      <libsource lib="CONNECTORS" part="USB-A_CONN" description="USB-A (USB TYPE-A) USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E04F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>RESC_470R_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">RC0603JR-07470RL</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="VAL">470R</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_470R_0603" description="470 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E0EB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>RESC_470R_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">RC0603JR-07470RL</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="VAL">470R</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_470R_0603" description="470 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E0F9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>RESC_470R_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">RC0603JR-07470RL</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="VAL">470R</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_470R_0603" description="470 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E107</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73833</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/microchip-technology/MCP73833-AMI-UN/MCP73833-AMI-UN-ND/1223157</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer_PN">MCP73833-AMI/UN</field>
+        <field name="Price for 1">0.85000</field>
+        <field name="Price for 100">0.65000</field>
+        <field name="VAL">MCP73833</field>
+      </fields>
+      <libsource lib="ICs" part="MCP73833" description="Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E116</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>RESC_10K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10K_0603" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E18B</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>RESC_10K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10K_0603" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E199</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>RESC_10K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10K_0603" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E1A7</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>INDC_10uH_CDRH104R</value>
+      <datasheet>http://products.sumida.com/products/pdf/CDRH104R.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/sumida-america-components-inc/CDRH104RNP-100NC/308-1429-1-ND/956657</field>
+        <field name="Manufacturer">Sumida America Components Inc.</field>
+        <field name="Manufacturer_PN">CDRH104RNP-100NC</field>
+        <field name="Price for 1">1.64000</field>
+        <field name="Price for 100">1.06260</field>
+        <field name="VAL">10uH</field>
+      </fields>
+      <libsource lib="INDUCTORS" part="INDC_10uH_CDRH104R" description="10µH Shielded Inductor 3.8A 35mOhm Max Nonstandard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E1DD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CAPC_10uF_0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C0805C106K4PACTU/399-8012-1-ND/3471735</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer_PN">C0805C106K4PACTU</field>
+        <field name="Price for 1">0.18000</field>
+        <field name="Price for 100">0.06350</field>
+        <field name="VAL">10uF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_10uF_0805" description="10µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E1EB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>1POS_CONN_PAD_30X30MM_H1MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">1POS_CONN_PAD_30X30MM_H1MM</field>
+      </fields>
+      <libsource lib="CONNECTORS" part="1POS_CONN_PAD_30X30MM_H1MM" description="1 position connector pad 30X30 mm (solder connection) with 1mm hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E20F</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>1POS_CONN_PAD_30X30MM_H1MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">1POS_CONN_PAD_30X30MM_H1MM</field>
+      </fields>
+      <libsource lib="CONNECTORS" part="1POS_CONN_PAD_30X30MM_H1MM" description="1 position connector pad 30X30 mm (solder connection) with 1mm hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E21D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>1POS_CONN_PAD_30X30MM_H1MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">1POS_CONN_PAD_30X30MM_H1MM</field>
+      </fields>
+      <libsource lib="CONNECTORS" part="1POS_CONN_PAD_30X30MM_H1MM" description="1 position connector pad 30X30 mm (solder connection) with 1mm hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E22B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>CAPC_10uF_1210</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C1210C106M4PACTU/399-8229-1-ND/3471952</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer_PN">C1210C106M4PACTU</field>
+        <field name="Price for 1">0.40000</field>
+        <field name="Price for 100">0.16810</field>
+        <field name="VAL">10uF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_10uF_1210" description="10µF ±20% 16V Ceramic Capacitor X5R 1210 (3225 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E2B3</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E2F8</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E306</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E314</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E322</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E330</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E33E</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E34C</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E35A</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E368</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>RESC_10K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10K_0603" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E37B</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>RESC_0R_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-070RL/311-0-0GRCT-ND/729622</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">RC0603JR-070RL</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="VAL">0R</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_0R_0603" description="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E3A3</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>1POS_CONN_PAD_30X30MM_H1MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">1POS_CONN_PAD_30X30MM_H1MM</field>
+      </fields>
+      <libsource lib="CONNECTORS" part="1POS_CONN_PAD_30X30MM_H1MM" description="1 position connector pad 30X30 mm (solder connection) with 1mm hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E3BC</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>PAM2421</value>
+      <datasheet>https://www.diodes.com/assets/Datasheets/PAM2421_22_23.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/diodes-incorporated/PAM2421AECADJR/PAM2421AECADJRDICT-ND/4333269</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer_PN">PAM2421AECADJR</field>
+        <field name="Price for 1">0.87</field>
+        <field name="Price for 100">0.56460</field>
+        <field name="VAL">PAM2421</field>
+      </fields>
+      <libsource lib="ICs" part="PAM2421" description="Boost Switching Regulator IC Positive Adjustable 2.7V 1 Output 3A (Switch) 8-SOIC (0.154&quot;, 3.90mm Width) Exposed Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F10182C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>CAPC_10uF_0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C0805C106K4PACTU/399-8012-1-ND/3471735</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer_PN">C0805C106K4PACTU</field>
+        <field name="Price for 1">0.18000</field>
+        <field name="Price for 100">0.06350</field>
+        <field name="VAL">10uF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_10uF_0805" description="10µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F229F57</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>CAPC_22uF_1210</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C1210C226K4PACTU/399-5092-1-ND/1465626</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer_PN">C1210C226K4PACTU</field>
+        <field name="Price for 1">0.58000</field>
+        <field name="Price for 100">0.26950</field>
+        <field name="VAL">22uF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_22uF_1210" description="22µF ±10% 16V Ceramic Capacitor X5R 1210 (3225 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F25FC68</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>CAPC_1uF_0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B105MO8NNWC.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105MO8NNWC/1276-6524-1-ND/5961383</field>
+        <field name="Manufacturer">CL10B105MO8NNWC</field>
+        <field name="Manufacturer_PN">CL10B105MO8NNWC</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.01960</field>
+        <field name="VAL">1uF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_1uF_0603" description="1µF ±20% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F262269</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>RESC_10R_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.te.com/commerce/alt/SinglePartSearch.do?PN=2-1879494-5&amp;dest=stmt</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10R/A126395CT-ND/7603450</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Manufacturer_PN">CRGH0603J10R</field>
+        <field name="Price for 1">0.10000</field>
+        <field name="Price for 100">0.01750</field>
+        <field name="VAL">10R</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10R_0603" description="10 Ohms ±5% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F37EC09</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>CAPC_2.2nF_0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C0603C222J5RACTU/399-7879-1-ND/3471602</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer_PN">C0603C222J5RACTU</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02430</field>
+        <field name="VAL">2.2nF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_2.2nF_0603" description="2200pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F437E5F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>RESC_10K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10K_0603" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F42B58A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>CAPC_47pF_0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/C0603C470J1GACTU.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C0603C470J1GACTU/399-7917-1-ND/3471640</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer_PN">C0603C470J1GACTU</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02550</field>
+        <field name="VAL">47pF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_47pF_0603" description="47pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4612BB</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>RESC_51K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT51K0/RMCF0603FT51K0CT-ND/1943102</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RMCF0603FT51K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00650</field>
+        <field name="VAL">51K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_51K_0603" description="51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F46C153</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>CAPC_10nF_0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">CC0603KRX7R9BB103</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.01740</field>
+        <field name="VAL">10nF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_10nF_0603" description="10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F49DC18</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>RESC_30K1_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT30K1/RMCF0603FT30K1CT-ND/1943087</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RMCF0603FT30K1</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00650</field>
+        <field name="VAL">30K1</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_30K1_0603" description="30.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4A2CC0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>CAPC_100nF_0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/ptm/y/yageo/multilayer-ceramic-capacitors?pn_sku=311-1341-1-ND&amp;part_id=2103125</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125</field>
+        <field name="Manufacturer">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manufacturer_PN">CC0603KRX7R8BB104</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02240</field>
+        <field name="VAL">100nF</field>
+      </fields>
+      <libsource lib="CAPACITORS" part="CAPC_100nF_0603" description="0.1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F568C1E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP9101C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP9101C.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/diodes-incorporated/AP9101CK6-ADTRG1/AP9101CK6-ADTRG1DICT-ND/5731849</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer_PN">AP9101CK6-ADTRG1</field>
+        <field name="Price for 1">0.44</field>
+        <field name="Price for 100">0.21970</field>
+        <field name="VAL">AP9101C</field>
+      </fields>
+      <libsource lib="ICs" part="AP9101C" description="Battery Battery Protection IC Lithium Ion/Polymer SOT-26"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4FBCCF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>RESC_330R_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF3300V/P330HCT-ND/1746761</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer_PN">ERJ-3EKF3300V</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02840</field>
+        <field name="VAL">330R</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_330R_0603" description="330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5B8FAF</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>RESC_2K7_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F2K7/A129693CT-ND/8577525</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Manufacturer_PN">CRGCQ0603F2K7</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.01200</field>
+        <field name="VAL">2K7</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_2K7_0603" description="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5BA751</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NMOS_20V_3.6A_SOT-23-3</value>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/on-semiconductor/NTR3C21NZT1G/NTR3C21NZT1GOSCT-ND/9087577</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer_PN">NTR3C21NZT1G</field>
+        <field name="Price for 1">0.35</field>
+        <field name="Price for 100">0.16200</field>
+        <field name="VAL">NTR3C21NZ</field>
+      </fields>
+      <libsource lib="TRANSISTORS" part="NMOS_20V_3.6A_SOT-23-3" description="N-Channel 20V 3.6A (Ta) 470mW (Ta) Surface Mount SOT-23-3 (TO-236)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5C6629</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NMOS_20V_3.6A_SOT-23-3</value>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/on-semiconductor/NTR3C21NZT1G/NTR3C21NZT1GOSCT-ND/9087577</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer_PN">NTR3C21NZT1G</field>
+        <field name="Price for 1">0.35</field>
+        <field name="Price for 100">0.16200</field>
+        <field name="VAL">NTR3C21NZ</field>
+      </fields>
+      <libsource lib="TRANSISTORS" part="NMOS_20V_3.6A_SOT-23-3" description="N-Channel 20V 3.6A (Ta) 470mW (Ta) Surface Mount SOT-23-3 (TO-236)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5C9E1E</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2419A2</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F242017</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F242385</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2426BC</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>TP_12.5X12.5_MM</value>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+        <field name="Link">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+      </fields>
+      <libsource lib="TESTPOINTS" part="TP_12.5X12.5_MM" description="TEST POINT RECTANGLE 1.25x1.25 [MM]"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F188ACA</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>RESC_1K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&amp;part_id=729624</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_PN">RC0603JR-071KL</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="VAL">1K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_1K_0603" description="1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2DEFF1</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>RESC_10K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10K_0603" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2DFC1A</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>RESC_10K_0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="VAL">10K</field>
+      </fields>
+      <libsource lib="RESISTORS" part="RESC_10K_0603" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41C2EA</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PMOS_20V_4.2A_SOT-23-3</value>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds31737.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/diodes-incorporated/DMP2305U-7/DMP2305UDICT-ND/2052810</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer_PN">DMP2305U-7</field>
+        <field name="Price for 1">0.39000</field>
+        <field name="Price for 100">0.13820</field>
+        <field name="VAL">DMP2305U-7</field>
+      </fields>
+      <libsource lib="TRANSISTORS" part="PMOS_20V_4.2A_SOT-23-3" description="P-Channel 20V 4.2A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4402C0</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Schottky_40V_5A_DO-214AB</value>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SL54~SL510(DO-214AB)-A.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/micro-commercial-co/SL54-TP/SL54-TPMSCT-ND/6004850</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer_PN">SL54-TP</field>
+        <field name="Price for 1">0.44</field>
+        <field name="Price for 100">0.26000</field>
+        <field name="VAL">SL54-TP</field>
+      </fields>
+      <libsource lib="DIODES" part="Schottky_40V_5A_DO-214AB" description="Diode Schottky 40V 5A Surface Mount DO-214AB (SMC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F488DD6</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Schottky_40V_5A_DO-214AB</value>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SL54~SL510(DO-214AB)-A.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/micro-commercial-co/SL54-TP/SL54-TPMSCT-ND/6004850</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer_PN">SL54-TP</field>
+        <field name="Price for 1">0.44</field>
+        <field name="Price for 100">0.26000</field>
+        <field name="VAL">SL54-TP</field>
+      </fields>
+      <libsource lib="DIODES" part="Schottky_40V_5A_DO-214AB" description="Diode Schottky 40V 5A Surface Mount DO-214AB (SMC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48B512</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TVS_5V_9.2V_DO214AC</value>
+      <datasheet>https://www.we-online.de/katalog/datasheet/824500500.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/824500500/732-9974-1-ND/5871127</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_PN">824500500</field>
+        <field name="Price for 1">0.27000</field>
+        <field name="Price for 100">0.22580</field>
+        <field name="VAL">824500500</field>
+      </fields>
+      <libsource lib="DIODES" part="TVS_5V_9.2V_DO214AC" description="9.2V Clamp 43.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6720DE</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>TVS_5V_9.2V_DO214AC</value>
+      <datasheet>https://www.we-online.de/katalog/datasheet/824500500.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/824500500/732-9974-1-ND/5871127</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_PN">824500500</field>
+        <field name="Price for 1">0.27000</field>
+        <field name="Price for 100">0.22580</field>
+        <field name="VAL">824500500</field>
+      </fields>
+      <libsource lib="DIODES" part="TVS_5V_9.2V_DO214AC" description="9.2V Clamp 43.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F687448</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>PTC_POLYFUSE_8V_2A_1812</value>
+      <datasheet>https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf</datasheet>
+      <fields>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0200FF2C/507-1777-1-ND/4156280</field>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+        <field name="Manufacturer_PN">0ZCG0200FF2C</field>
+        <field name="Price for 1">0.19000</field>
+        <field name="Price for 100">0.14550</field>
+        <field name="VAL">0ZCG0200FF2C</field>
+      </fields>
+      <libsource lib="FUSES" part="PTC_POLYFUSE_8V_2A_1812" description="Polymeric PTC Resettable Fuse 8V 2A Ih Surface Mount 1812 (4532 Metric), Concave"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F12B730</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CAPACITORS" part="CAPC_100nF_0603">
+      <description>0.1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <docs>https://www.digikey.com/en/ptm/y/yageo/multilayer-ceramic-capacitors?pn_sku=311-1341-1-ND&amp;part_id=2103125</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_100nF_0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">100nF</field>
+        <field name="Manufacturer_PN">CC0603KRX7R8BB104</field>
+        <field name="Manufacturer">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02240</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R8BB104/311-1341-1-ND/2103125</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_10nF_0603">
+      <description>10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_10nF_0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">10nF</field>
+        <field name="Manufacturer_PN">CC0603KRX7R9BB103</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.01740</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_10uF_0603">
+      <description>10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_10uF_0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">10uF</field>
+        <field name="Manufacturer_PN">GRM188R61E106KA73D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Price for 1">0.36000</field>
+        <field name="Price for 100">0.14850</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61E106KA73D/490-18214-1-ND/9867943</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_10uF_0805">
+      <description>10µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <docs>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_10uF_0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="VAL">10uF</field>
+        <field name="Manufacturer_PN">C0805C106K4PACTU</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price for 1">0.18000</field>
+        <field name="Price for 100">0.06350</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C0805C106K4PACTU/399-8012-1-ND/3471735</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_10uF_1210">
+      <description>10µF ±20% 16V Ceramic Capacitor X5R 1210 (3225 Metric)</description>
+      <docs>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_10uF_1210</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</field>
+        <field name="VAL">10uF</field>
+        <field name="Manufacturer_PN">C1210C106M4PACTU</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price for 1">0.40000</field>
+        <field name="Price for 100">0.16810</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C1210C106M4PACTU/399-8229-1-ND/3471952</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_1uF_0603">
+      <description>1µF ±20% 16V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B105MO8NNWC.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_1uF_0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">1uF</field>
+        <field name="Manufacturer_PN">CL10B105MO8NNWC</field>
+        <field name="Manufacturer">CL10B105MO8NNWC</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.01960</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105MO8NNWC/1276-6524-1-ND/5961383</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_2.2nF_0603">
+      <description>2200pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <docs>https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_2.2nF_0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">2.2nF</field>
+        <field name="Manufacturer_PN">C0603C222J5RACTU</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02430</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C0603C222J5RACTU/399-7879-1-ND/3471602</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_22uF_1210">
+      <description>22µF ±10% 16V Ceramic Capacitor X5R 1210 (3225 Metric)</description>
+      <docs>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_22uF_1210</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</field>
+        <field name="VAL">22uF</field>
+        <field name="Manufacturer_PN">C1210C226K4PACTU</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price for 1">0.58000</field>
+        <field name="Price for 100">0.26950</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C1210C226K4PACTU/399-5092-1-ND/1465626</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAPACITORS" part="CAPC_47pF_0603">
+      <description>47pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</description>
+      <docs>https://api.kemet.com/component-edge/download/datasheet/C0603C470J1GACTU.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPC_47pF_0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">47pF</field>
+        <field name="Manufacturer_PN">C0603C470J1GACTU</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02550</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/C0603C470J1GACTU/399-7917-1-ND/3471640</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CONNECTORS" part="1POS_CONN_PAD_30X30MM_H1MM">
+      <description>1 position connector pad 30X30 mm (solder connection) with 1mm hole</description>
+      <docs>N/A</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1POS_CONN_PAD_30X30MM_H1MM</field>
+        <field name="VAL">1POS_CONN_PAD_30X30MM_H1MM</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="Link">N/A</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CONNECTORS" part="Micro_USB_CONN">
+      <description>MCR-B-S-RA-SMT-EH4B-T/R</description>
+      <docs>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_USB_CONN</field>
+        <field name="VAL">MicroUSB connector</field>
+        <field name="Manufacturer_PN">MCR-B-S-RA-SMT-EH4B-T/R</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Price for 1">0.37000</field>
+        <field name="Price for 100">0.24480</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/adam-tech/MCR-B-S-RA-SMT-EH4B-T-R/2057-MCR-B-S-RA-SMT-EH4B-T-RCT-ND/9833110</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+        <pin num="7" name="Sheild1" type="passive"/>
+        <pin num="8" name="Sheild2" type="passive"/>
+        <pin num="9" name="Sheild3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CONNECTORS" part="USB-A_CONN">
+      <description>USB-A (USB TYPE-A) USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=292303&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-A_CONN</field>
+        <field name="VAL">USB_TYPEA_CONN</field>
+        <field name="Manufacturer_PN">292303-1</field>
+        <field name="Manufacturer">TE Connectivity AMP Connectors</field>
+        <field name="Price for 1">1.48000</field>
+        <field name="Price for 100">1.14950</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292303-1/A31726-ND/773786</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+        <pin num="~" name="Sheild1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DIODES" part="Schottky_40V_5A_DO-214AB">
+      <description>Diode Schottky 40V 5A Surface Mount DO-214AB (SMC)</description>
+      <docs>https://www.mccsemi.com/pdf/Products/SL54~SL510(DO-214AB)-A.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Schottky_40V_5A_DO-214AB</field>
+        <field name="VAL">SL54-TP</field>
+        <field name="Manufacturer_PN">SL54-TP</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Price for 1">0.44</field>
+        <field name="Price for 100">0.26000</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/micro-commercial-co/SL54-TP/SL54-TPMSCT-ND/6004850</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DIODES" part="TVS_5V_9.2V_DO214AC">
+      <description>9.2V Clamp 43.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)</description>
+      <docs>https://www.we-online.de/katalog/datasheet/824500500.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_5V_9.2V_DO214AC</field>
+        <field name="VAL">824500500</field>
+        <field name="Manufacturer_PN">824500500</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price for 1">0.27000</field>
+        <field name="Price for 100">0.22580</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/824500500/732-9974-1-ND/5871127</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FUSES" part="PTC_POLYFUSE_8V_2A_1812">
+      <description>Polymeric PTC Resettable Fuse 8V 2A Ih Surface Mount 1812 (4532 Metric), Concave</description>
+      <docs>https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">PTC_POLYFUSE_8V_2A_1812</field>
+        <field name="VAL">0ZCG0200FF2C</field>
+        <field name="Manufacturer_PN">0ZCG0200FF2C</field>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+        <field name="Price for 1">0.19000</field>
+        <field name="Price for 100">0.14550</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0200FF2C/507-1777-1-ND/4156280</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ICs" part="AP9101C">
+      <description>Battery Battery Protection IC Lithium Ion/Polymer SOT-26</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP9101C.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP9101C</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+        <field name="VAL">AP9101C</field>
+        <field name="Manufacturer_PN">AP9101CK6-ADTRG1</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Price for 1">0.44</field>
+        <field name="Price for 100">0.21970</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/diodes-incorporated/AP9101CK6-ADTRG1/AP9101CK6-ADTRG1DICT-ND/5731849</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="passive"/>
+        <pin num="2" name="VM" type="passive"/>
+        <pin num="3" name="CO" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ICs" part="MCP73833">
+      <description>Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73833</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/microchip-technology/MCP73833-AMI-UN/MCP73833-AMI-UN-ND/1223157</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer_PN">MCP73833-AMI/UN</field>
+        <field name="Price for 1">0.85000</field>
+        <field name="Price for 100">0.65000</field>
+        <field name="VAL">MCP73833</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="VDD2" type="power_in"/>
+        <pin num="3" name="STAT1" type="openCol"/>
+        <pin num="4" name="STAT2" type="openCol"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="PROG" type="passive"/>
+        <pin num="7" name="~PG" type="passive"/>
+        <pin num="8" name="THERM" type="input"/>
+        <pin num="9" name="VBAT" type="power_out"/>
+        <pin num="10" name="VBAT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ICs" part="PAM2421">
+      <description>Boost Switching Regulator IC Positive Adjustable 2.7V 1 Output 3A (Switch) 8-SOIC (0.154", 3.90mm Width) Exposed Pad</description>
+      <docs>https://www.diodes.com/assets/Datasheets/PAM2421_22_23.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PAM2421</field>
+        <field name="VAL">PAM2421</field>
+        <field name="Manufacturer_PN">PAM2421AECADJR</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Price for 1">0.87</field>
+        <field name="Price for 100">0.56460</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/diodes-incorporated/PAM2421AECADJR/PAM2421AECADJRDICT-ND/4333269</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="COMP" type="passive"/>
+        <pin num="5" name="AGND" type="power_in"/>
+        <pin num="6" name="FB" type="passive"/>
+        <pin num="7" name="SS" type="passive"/>
+        <pin num="8" name="SW" type="BiDi"/>
+        <pin num="9" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="INDUCTORS" part="INDC_10uH_CDRH104R">
+      <description>10µH Shielded Inductor 3.8A 35mOhm Max Nonstandard</description>
+      <docs>http://products.sumida.com/products/pdf/CDRH104R.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDC_10uH_CDRH104R</field>
+        <field name="VAL">10uH</field>
+        <field name="Manufacturer_PN">CDRH104RNP-100NC</field>
+        <field name="Manufacturer">Sumida America Components Inc.</field>
+        <field name="Price for 1">1.64000</field>
+        <field name="Price for 100">1.06260</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/sumida-america-components-inc/CDRH104RNP-100NC/308-1429-1-ND/956657</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LEDS" part="LEDC_BLUE_0603">
+      <description>Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)</description>
+      <docs>https://www.we-online.de/katalog/datasheet/150060BS75000.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">LEDC_BLUE_0603</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">BLUE</field>
+        <field name="Manufacturer_PN">150060BS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price for 1">0.16</field>
+        <field name="Price for 100">0.125</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060BS75000/732-4966-1-ND/4489893</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LEDS" part="LEDC_GREEN_0603">
+      <description>Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)</description>
+      <docs>https://www.we-online.de/katalog/datasheet/150060VS75000.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">LEDC_GREEN_0603</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">GREEN</field>
+        <field name="Manufacturer_PN">150060VS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price for 1">0.14</field>
+        <field name="Price for 100">0.114</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060VS75000/732-4980-1-ND/4489904</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LEDS" part="LEDC_RED_0603">
+      <description>Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</description>
+      <docs>https://katalog.we-online.de/led/datasheet/150060RS75000.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">LEDC_RED_0603</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">RED</field>
+        <field name="Manufacturer_PN">150060RS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price for 1">0.14</field>
+        <field name="Price for 100">0.114</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060RS75000/732-4978-1-ND/4489899</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_0R_0603">
+      <description>0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_0R_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">0R</field>
+        <field name="Manufacturer_PN">RC0603JR-070RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-070RL/311-0-0GRCT-ND/729622</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_10K_0603">
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rncp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_10K_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">10K</field>
+        <field name="Manufacturer_PN">RNCP0603FTD10K0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02730</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_10R_0603">
+      <description>10 Ohms ±5% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Thick Film</description>
+      <docs>https://www.te.com/commerce/alt/SinglePartSearch.do?PN=2-1879494-5&amp;dest=stmt</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_10R_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">10R</field>
+        <field name="Manufacturer_PN">CRGH0603J10R</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Price for 1">0.10000</field>
+        <field name="Price for 100">0.01750</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10R/A126395CT-ND/7603450</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_124K_0603">
+      <description>124 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_124K_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">124K</field>
+        <field name="Manufacturer_PN">RMCF0603FT124K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00650</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT124K/RMCF0603FT124KCT-ND/1943121</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_1K_0603">
+      <description>1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</description>
+      <docs>https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&amp;part_id=729624</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_1K_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">1K</field>
+        <field name="Manufacturer_PN">RC0603JR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_2K7_0603">
+      <description>2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_2K7_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">2K7</field>
+        <field name="Manufacturer_PN">CRGCQ0603F2K7</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.01200</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F2K7/A129693CT-ND/8577525</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_30K1_0603">
+      <description>30.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_30K1_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">30K1</field>
+        <field name="Manufacturer_PN">RMCF0603FT30K1</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00650</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT30K1/RMCF0603FT30K1CT-ND/1943087</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_330R_0603">
+      <description>330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_330R_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">330R</field>
+        <field name="Manufacturer_PN">ERJ-3EKF3300V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.02840</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF3300V/P330HCT-ND/1746761</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_470R_0603">
+      <description>470 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_470R_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">470R</field>
+        <field name="Manufacturer_PN">RC0603JR-07470RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00770</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RESISTORS" part="RESC_51K_0603">
+      <description>51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESC_51K_0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="VAL">51K</field>
+        <field name="Manufacturer_PN">RMCF0603FT51K0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price for 1">0.1</field>
+        <field name="Price for 100">0.00650</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT51K0/RMCF0603FT51K0CT-ND/1943102</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SENSORS" part="NTC_10K_3380K_0603">
+      <description>NTC Thermistor 10k 0603 (1608 Metric)</description>
+      <docs>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/thermistor/r03e.ashx?la=en-us</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NTC</field>
+        <field name="Value">NTC_10K_3380K_0603</field>
+        <field name="VAL">10K</field>
+        <field name="Manufacturer_PN">NCU18XH103F60RB</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Price for 1">0.12000</field>
+        <field name="Price for 100">0.06360</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/murata-electronics/NCU18XH103F60RB/490-16279-1-ND/7363262</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TESTPOINTS" part="TP_12.5X12.5_MM">
+      <description>TEST POINT RECTANGLE 1.25x1.25 [MM]</description>
+      <docs>N/A</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP_12.5X12.5_MM</field>
+        <field name="VAL">TP_12.5X12.5_MM</field>
+        <field name="Manufacturer_PN">N/A</field>
+        <field name="Manufacturer">N/A</field>
+        <field name="Price for 1">N/A</field>
+        <field name="Price for 100">N/A</field>
+        <field name="Link">N/A</field>
+        <field name="ASSEMBLY">NO</field>
+        <field name="BOM_IGNORE">YES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TRANSISTORS" part="NMOS_20V_3.6A_SOT-23-3">
+      <description>N-Channel 20V 3.6A (Ta) 470mW (Ta) Surface Mount SOT-23-3 (TO-236)</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOS_20V_3.6A_SOT-23-3</field>
+        <field name="VAL">NTR3C21NZ</field>
+        <field name="Manufacturer_PN">NTR3C21NZT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Price for 1">0.35</field>
+        <field name="Price for 100">0.16200</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/on-semiconductor/NTR3C21NZT1G/NTR3C21NZT1GOSCT-ND/9087577</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TRANSISTORS" part="PMOS_20V_4.2A_SOT-23-3">
+      <description>P-Channel 20V 4.2A (Ta) 1.4W (Ta) Surface Mount SOT-23-3</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds31737.pdf</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMOS_20V_4.2A_SOT-23-3</field>
+        <field name="VAL">DMP2305U-7</field>
+        <field name="Manufacturer_PN">DMP2305U-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Price for 1">0.39000</field>
+        <field name="Price for 100">0.13820</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/diodes-incorporated/DMP2305U-7/DMP2305UDICT-ND/2052810</field>
+        <field name="ASSEMBLY">N/A</field>
+        <field name="BOM_IGNORE">N/A</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CAPACITORS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\CAPACITORS.lib</uri>
+    </library>
+    <library logical="CONNECTORS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\CONNECTORS.lib</uri>
+    </library>
+    <library logical="DIODES">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\DIODES.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="FUSES">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\FUSES.lib</uri>
+    </library>
+    <library logical="ICs">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\ICs.lib</uri>
+    </library>
+    <library logical="INDUCTORS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\INDUCTORS.lib</uri>
+    </library>
+    <library logical="LEDS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\LEDS.lib</uri>
+    </library>
+    <library logical="RESISTORS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\RESISTORS.lib</uri>
+    </library>
+    <library logical="SENSORS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\SENSORS.lib</uri>
+    </library>
+    <library logical="TESTPOINTS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\TESTPOINTS.lib</uri>
+    </library>
+    <library logical="TRANSISTORS">
+      <uri>E:\Shahar\Projects\Electronics\Library\KiCAD\Symbols\TRANSISTORS.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BOOST_SS">
+      <node ref="U3" pin="7"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C10-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="D4" pin="A"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="D1" pin="A"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="Q2" pin="S"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="NTC1" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="J2" pin="~"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="4" name="/BOOST_COMP">
+      <node ref="U3" pin="4"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="6" name="/+VBAT">
+      <node ref="BT1" pin="1"/>
+      <node ref="TP13" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="7" name="/U2_VDD">
+      <node ref="C3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="TP9" pin="1"/>
+    </net>
+    <net code="8" name="/BOOST_SW">
+      <node ref="TP8" pin="1"/>
+      <node ref="D3" pin="A"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="9" name="/BOOST_FB">
+      <node ref="U3" pin="6"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="TP7" pin="1"/>
+    </net>
+    <net code="10" name="/BOOST_VIN">
+      <node ref="C6" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="11" name="+5V">
+      <node ref="DS3" pin="A"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="D2" pin="A"/>
+      <node ref="DS2" pin="A"/>
+      <node ref="DS1" pin="A"/>
+      <node ref="D4" pin="K"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="12" name="/CO">
+      <node ref="U2" pin="3"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="Q2" pin="G"/>
+    </net>
+    <net code="13" name="/VM">
+      <node ref="TP12" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="14" name="/BOOST_IND">
+      <node ref="L1" pin="1"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Q3" pin="S"/>
+      <node ref="D2" pin="K"/>
+    </net>
+    <net code="15" name="Net-(Q1-PadD)">
+      <node ref="Q1" pin="D"/>
+      <node ref="Q2" pin="D"/>
+    </net>
+    <net code="16" name="/DO">
+      <node ref="TP10" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="Q1" pin="G"/>
+    </net>
+    <net code="17" name="Net-(Q3-PadG)">
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q3" pin="G"/>
+    </net>
+    <net code="18" name="Net-(DS2-PadK)">
+      <node ref="R3" pin="2"/>
+      <node ref="DS2" pin="K"/>
+    </net>
+    <net code="19" name="VOUT">
+      <node ref="C7" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="D3" pin="K"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="20" name="Net-(DS3-PadK)">
+      <node ref="DS3" pin="K"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(DS1-PadK)">
+      <node ref="DS1" pin="K"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="22" name="/BOOST_EN">
+      <node ref="U3" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="TP5" pin="1"/>
+    </net>
+    <net code="23" name="/STAT2">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="24" name="/STAT1">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="25" name="/THERM">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="27" name="/PROG">
+      <node ref="U1" pin="6"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="28" name="+VBAT_CELL">
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="10"/>
+      <node ref="D1" pin="K"/>
+      <node ref="C2" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="Q3" pin="D"/>
+    </net>
+    <net code="29" name="/NTC">
+      <node ref="NTC1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="30" name="/-VBAT">
+      <node ref="TP14" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q1" pin="S"/>
+    </net>
+    <net code="31" name="/~PG">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="32" name="Net-(J2-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J2-Pad3)">
+      <node ref="R18" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+  </nets>
+</export>

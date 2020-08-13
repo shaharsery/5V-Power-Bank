@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TP_1.25X1.25_MM
+D TEST POINT RECTANGLE 1.25x1.25 [MM]
+K Test point
+F N/A
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K Test point
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M3C6_NP
+D Mechanical hole, 3mm dia, 6mm head, non plated
+K MECHANICAL
+F N/A
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K MECHANICAL
+F N/A
+$ENDCMP
+#
+$CMP Template_copy
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K MECHANICAL
+F N/A
+$ENDCMP
+#
+#End Doc Library

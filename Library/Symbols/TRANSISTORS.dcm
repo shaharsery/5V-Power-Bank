@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NMOS_20V_3.6A_SOT-23-3
+D N-Channel 20V 3.6A (Ta) 470mW (Ta) Surface Mount SOT-23-3 (TO-236)
+K SENSOR SENSORS
+F https://www.onsemi.com/pub/Collateral/NTR3C21NZ-D.PDF
+$ENDCMP
+#
+$CMP NMOS_60V_115mA_SMD
+D N-Channel 60V 115mA (Tc) 225mW (Ta) Surface Mount SOT-23-3 (TO-236)
+K NMOS TRANSISTOR
+F https://www.onsemi.com/pub/Collateral/2N7002L-D.PDF
+$ENDCMP
+#
+$CMP NMOS_DUAL_CD_20V_4.2A_SOT26
+D Mosfet Array 2 N-Channel (Dual) Common Drain 20V 4.2A 980mW Surface Mount SOT-26
+K Transistor NMOS dual common drain
+F https://www.diodes.com/assets/Datasheets/ds31770.pdf
+$ENDCMP
+#
+$CMP NMOS_template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K TRANSISTOR NMOS
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP PMOS_20V_4.2A_SOT-23-3
+D P-Channel 20V 4.2A (Ta) 1.4W (Ta) Surface Mount SOT-23-3
+K TRANSISTOR PMOS
+F https://www.diodes.com/assets/Datasheets/ds31737.pdf
+$ENDCMP
+#
+$CMP PMOS_25V_460mA_SMD
+D P-Channel 25V 460mA (Ta) 350mW (Ta) Surface Mount SOT-23
+K SENSOR SENSORS
+F https://www.onsemi.com/pub/Collateral/FDV304P-D.PDF
+$ENDCMP
+#
+$CMP PMOS_30V_3.8A_SMD
+D P-Channel 30V 3.8A (Ta) 1.08W (Ta) Surface Mount SOT-23
+K SENSOR SENSORS
+F https://www.diodes.com/assets/Datasheets/DMP3099L.pdf
+$ENDCMP
+#
+$CMP PMOS_template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K TRANSISTOR PMOS
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K TRANSISTOR
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

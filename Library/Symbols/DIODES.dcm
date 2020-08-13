@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SCHOTTKY_10V_2A_SMA
+D Diode Schottky 10V 2A Surface Mount SMA
+K Diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRA210LT3-D.PDF
+$ENDCMP
+#
+$CMP Schottky_40V_5A_DO-214AB
+D Diode Schottky 40V 5A Surface Mount DO-214AB (SMC)
+K Diode Schottky
+F https://www.mccsemi.com/pdf/Products/SL54~SL510(DO-214AB)-A.pdf
+$ENDCMP
+#
+$CMP TVS_5V_9.2V_DO214AC
+D 9.2V Clamp 43.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)
+K Diode TVS
+F https://www.we-online.de/katalog/datasheet/824500500.pdf
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K DIODE
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP Template_Schottky
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K Diode Schottky
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP Template_Zener
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K Diode zener
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

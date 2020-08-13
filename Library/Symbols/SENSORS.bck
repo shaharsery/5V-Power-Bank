@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTC_10K_3380K_0603
+D NTC Thermistor 10k 0603 (1608 Metric)
+K SENSOR SENSORS
+F https://www.murata.com/-/media/webrenewal/support/library/catalog/products/thermistor/r03e.ashx?la=en-us
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K SENSOR SENSORS
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

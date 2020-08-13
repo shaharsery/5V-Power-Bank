@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT_18650_HOLDER_SMD
+D Battery Holder (Open) 18650 1 Cell SMD (SMT) Tab
+K BATTERY CELL BATTERIES
+F https://www.keyelco.com/userAssets/file/M65p27.pdf
+$ENDCMP
+#
+$CMP BAT_18650_HOLDER_THT
+D Battery Holder (Open) 18650 1 Cell PC Pin	
+K BATTERY CELL BATTERIES
+F https://www.keyelco.com/userAssets/file/M65p27.pdf
+$ENDCMP
+#
+$CMP BAT_Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K BATTERY CELL BATTERIES
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

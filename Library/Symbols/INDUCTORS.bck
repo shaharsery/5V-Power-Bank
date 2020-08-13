@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INDC_10uH_1210
+D 10µH Shielded Thin Film Inductor 1.2A 360mOhm Max 1210 (3225 Metric)
+K INDUCTOR
+F https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/TFM_ALxA_Series_Cert_of_Compliance.pdf
+$ENDCMP
+#
+$CMP INDC_10uH_CDRH104R
+D 10µH Shielded Inductor 3.8A 35mOhm Max Nonstandard
+K INDUCTOR
+F http://products.sumida.com/products/pdf/CDRH104R.pdf
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K SENSOR SENSORS
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP Template_INDUCTOR
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K INDUCTOR
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

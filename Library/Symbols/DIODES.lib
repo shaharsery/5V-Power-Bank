@@ -1,0 +1,178 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SCHOTTKY_10V_2A_SMA
+#
+DEF SCHOTTKY_10V_2A_SMA D 0 0 N N 1 F N
+F0 "D" -100 250 50 H V C CNN
+F1 "SCHOTTKY_10V_2A_SMA" 800 675 50 H I C CNN
+F2 "Diode_SMD:D_SMA" 700 800 50 H I C CNN
+F3 "" 700 800 50 H I C CNN
+F4 "MBRA210LT3G" -50 150 50 H V C CNN "VAL"
+F5 "MBRA210LT3G" 800 1000 50 H I C CNN "Manufacturer_PN"
+F6 "ON Semiconductor" 800 1000 50 H I C CNN "Manufacturer"
+F7 "0.47000" 800 1000 50 H I C CNN "Price for 1"
+F8 "0.27690" 800 1000 50 H I C CNN "Price for 100"
+F9 "https://www.digikey.com/product-detail/en/on-semiconductor/MBRA210LT3G/MBRA210LT3GOSCT-ND/917974" 800 1000 50 H I C CNN "Link"
+F10 "N/A" 800 1000 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 800 1000 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -50 -50 -50 50 50 0 -50 -50 N
+P 6 1 1 10 75 -25 75 -50 50 -50 50 50 25 50 25 25 N
+X A A -150 0 100 R 50 50 1 1 P
+X K K 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Schottky_40V_5A_DO-214AB
+#
+DEF Schottky_40V_5A_DO-214AB D 0 0 N N 1 F N
+F0 "D" 100 100 50 H V C CNN
+F1 "Schottky_40V_5A_DO-214AB" 650 425 50 H I C CNN
+F2 "DIODES:DO-214AB" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "SL54-TP" 200 -100 50 H V C CNN "VAL"
+F5 "SL54-TP" 600 800 50 H I C CNN "Manufacturer_PN"
+F6 "Micro Commercial Co" 550 850 50 H I C CNN "Manufacturer"
+F7 "0.44" 600 800 50 H I C CNN "Price for 1"
+F8 "0.26000" 600 800 50 H I C CNN "Price for 100"
+F9 "https://www.digikey.com/product-detail/en/micro-commercial-co/SL54-TP/SL54-TPMSCT-ND/6004850" 550 850 50 H I C CNN "Link"
+F10 "N/A" 600 800 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 600 800 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -50 -50 -50 50 50 0 -50 -50 N
+P 6 1 1 10 75 -25 75 -50 50 -50 50 50 25 50 25 25 N
+X A A -150 0 100 R 50 50 1 1 P
+X K K 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TVS_5V_9.2V_DO214AC
+#
+DEF TVS_5V_9.2V_DO214AC D 0 0 N N 1 F N
+F0 "D" 100 100 50 H V C CNN
+F1 "TVS_5V_9.2V_DO214AC" 650 425 50 H I C CNN
+F2 "DIODES:DO-214AC" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "824500500" 100 -150 50 H V C CNN "VAL"
+F5 "824500500" 450 600 50 H I C CNN "Manufacturer_PN"
+F6 "Würth Elektronik" 450 600 50 H I C CNN "Manufacturer"
+F7 "0.27000" 450 600 50 H I C CNN "Price for 1"
+F8 "0.22580" 450 600 50 H I C CNN "Price for 100"
+F9 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/824500500/732-9974-1-ND/5871127" 450 600 50 H I C CNN "Link"
+F10 "N/A" 450 600 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 450 600 50 H I C CNN "BOM_IGNORE"
+DRAW
+P 4 1 1 10 -50 -50 -50 50 50 0 -50 -50 N
+P 4 1 1 10 75 -75 50 -50 50 50 25 75 N
+X A A -150 0 100 R 50 50 1 1 P
+X K K 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Template
+#
+DEF Template D 0 0 N Y 1 F N
+F0 "D" 100 100 50 H V C CNN
+F1 "Template" 650 425 50 H I C CNN
+F2 "" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "N/A" -300 -150 50 H V C CNN "VAL"
+F5 "N/A" 400 1550 50 H I C CNN "Manufacturer_PN"
+F6 "N/A" 400 1550 50 H I C CNN "Manufacturer"
+F7 "N/A" 400 1550 50 H I C CNN "Price for 1"
+F8 "N/A" 400 1550 50 H I C CNN "Price for 100"
+F9 "N/A" 400 1550 50 H I C CNN "Link"
+F10 "N/A" 400 1550 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 400 1550 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+# Template_Schottky
+#
+DEF Template_Schottky D 0 0 N N 1 F N
+F0 "D" 100 100 50 H V C CNN
+F1 "Template_Schottky" 650 425 50 H I C CNN
+F2 "" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "N/A" 100 -150 50 H V C CNN "VAL"
+F5 "N/A" 450 600 50 H I C CNN "Manufacturer_PN"
+F6 "N/A" 450 600 50 H I C CNN "Manufacturer"
+F7 "N/A" 450 600 50 H I C CNN "Price for 1"
+F8 "N/A" 450 600 50 H I C CNN "Price for 100"
+F9 "N/A" 450 600 50 H I C CNN "Link"
+F10 "N/A" 450 600 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 450 600 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -50 -50 -50 50 50 0 -50 -50 N
+P 6 1 1 10 75 -25 75 -50 50 -50 50 50 25 50 25 25 N
+X A A -150 0 100 R 50 50 1 1 P
+X K K 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Template_Zener
+#
+DEF Template_Zener D 0 0 N N 1 F N
+F0 "D" 100 100 50 H V C CNN
+F1 "Template_Zener" 650 425 50 H I C CNN
+F2 "" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "N/A" 100 -150 50 H V C CNN "VAL"
+F5 "N/A" 450 600 50 H I C CNN "Manufacturer_PN"
+F6 "N/A" 450 600 50 H I C CNN "Manufacturer"
+F7 "N/A" 450 600 50 H I C CNN "Price for 1"
+F8 "N/A" 450 600 50 H I C CNN "Price for 100"
+F9 "N/A" 450 600 50 H I C CNN "Link"
+F10 "N/A" 450 600 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 450 600 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -50 -50 -50 50 50 0 -50 -50 N
+P 4 1 1 10 75 -75 50 -50 50 50 25 75 N
+X A A -150 0 100 R 50 50 1 1 P
+X K K 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

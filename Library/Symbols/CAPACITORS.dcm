@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAPC_100nF_0603
+D 0.1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)
+K capacitor cap
+F https://www.digikey.com/en/ptm/y/yageo/multilayer-ceramic-capacitors?pn_sku=311-1341-1-ND&part_id=2103125
+$ENDCMP
+#
+$CMP CAPC_10nF_0603
+D 10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+K capacitor cap
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP CAPC_10uF_0603
+D 10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)
+K capacitor cap
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf
+$ENDCMP
+#
+$CMP CAPC_10uF_0805
+D 10µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)
+K capacitor cap
+F https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf
+$ENDCMP
+#
+$CMP CAPC_10uF_1210
+D 10µF ±20% 16V Ceramic Capacitor X5R 1210 (3225 Metric)
+K capacitor cap
+F https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf
+$ENDCMP
+#
+$CMP CAPC_1uF_0603
+D 1µF ±20% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+K capacitor cap
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B105MO8NNWC.pdf
+$ENDCMP
+#
+$CMP CAPC_2.2nF_0603
+D 2200pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+K capacitor cap
+F https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
+$CMP CAPC_22uF_1210
+D 22µF ±10% 16V Ceramic Capacitor X5R 1210 (3225 Metric)
+K capacitor cap
+F https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf
+$ENDCMP
+#
+$CMP CAPC_47pF_0603
+D 47pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)
+K capacitor cap
+F https://api.kemet.com/component-edge/download/datasheet/C0603C470J1GACTU.pdf
+$ENDCMP
+#
+$CMP CAPC_TEMPLATE_0603
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K capacitor cap
+F ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP CAPC_TEMPLATE_0805
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K capacitor cap
+F ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP CAPC_TEMPLATE_1210
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K capacitor cap
+F ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP CAPC_TEMPLATE_1812
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K capacitor cap
+F ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

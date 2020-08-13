@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LEDC_BLUE_0603
+D Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)
+K SENSOR SENSORS
+F https://www.we-online.de/katalog/datasheet/150060BS75000.pdf
+$ENDCMP
+#
+$CMP LEDC_GREEN_0603
+D Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)
+K SENSOR SENSORS
+F https://www.we-online.de/katalog/datasheet/150060VS75000.pdf
+$ENDCMP
+#
+$CMP LEDC_RED_0603
+D Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)
+K SENSOR SENSORS
+F https://katalog.we-online.de/led/datasheet/150060RS75000.pdf
+$ENDCMP
+#
+$CMP LEDC_template_0603
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K SENSOR SENSORS
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+$CMP Template
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K SENSOR SENSORS
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

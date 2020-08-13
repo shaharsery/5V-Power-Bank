@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RESC_0R_0603
+D 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K r resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RESC_100K_0603
+D 100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K r resistor
+F https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf
+$ENDCMP
+#
+$CMP RESC_10K_0603
+D 10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Moisture Resistant Thin Film
+K r resistor
+F https://www.seielect.com/catalog/sei-rncp.pdf
+$ENDCMP
+#
+$CMP RESC_10R_0603
+D 10 Ohms ±5% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Thick Film
+K r resistor
+F https://www.te.com/commerce/alt/SinglePartSearch.do?PN=2-1879494-5&dest=stmt
+$ENDCMP
+#
+$CMP RESC_124K_0603
+D 124 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+K r resistor
+F https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf
+$ENDCMP
+#
+$CMP RESC_16K_0603
+D 16 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film
+K r resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP RESC_1K_0603
+D 1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K r resistor
+F https://www.digikey.com/en/ptm/y/yageo/chip-resistors?pn_sku=311-1.0KGRCT-ND&part_id=729624
+$ENDCMP
+#
+$CMP RESC_1M_0603
+D 1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K r resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RESC_2K7_0603
+D 2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+K r resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RESC_2K_0603
+D 2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+K r resistor
+F http://www.koaspeer.com/pdfs/RK73H.pdf
+$ENDCMP
+#
+$CMP RESC_30K1_0603
+D 30.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+K r resistor
+F https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf
+$ENDCMP
+#
+$CMP RESC_330R_0603
+D 330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+K r resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP RESC_470R_0603
+D 470 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K r resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RESC_4K99_0603
+D 4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+K r resistor
+F https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf
+$ENDCMP
+#
+$CMP RESC_510R_0603
+D 510 Ohms ±5% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film
+K r resistor
+F https://www.rohm.com/datasheet/ESR01MZPF/esr-e
+$ENDCMP
+#
+$CMP RESC_51K_0603
+D 51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+K r resistor
+F https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf
+$ENDCMP
+#
+$CMP RESC_549R_0603
+D 549 Ohms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+K r resistor
+F http://www.koaspeer.com/pdfs/RK73H.pdf
+$ENDCMP
+#
+$CMP RESC_56K_0603
+D 56 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+K r resistor
+F https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf
+$ENDCMP
+#
+$CMP RESC_TEMPLATE_0603
+D !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+K r resistor
+F !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$ENDCMP
+#
+#End Doc Library

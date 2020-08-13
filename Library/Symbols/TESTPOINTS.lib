@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TP_1.25X1.25_MM
+#
+DEF TP_1.25X1.25_MM TP 0 0 N N 1 F N
+F0 "TP" 210 140 50 H V C CNN
+F1 "TP_1.25X1.25_MM" 620 390 50 H I C CNN
+F2 "TESTPOINTS:TP_RECT_1.25X1.25" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "TP_1.25X1.25_MM" 480 -90 50 H V C CNN "VAL"
+F5 "N/A" 1200 780 50 H I C CNN "Manufacturer_PN"
+F6 "N/A" 1200 780 50 H I C CNN "Manufacturer"
+F7 "N/A" 1200 780 50 H I C CNN "Price for 1"
+F8 "N/A" 1200 780 50 H I C CNN "Price for 100"
+F9 "N/A" 1200 780 50 H I C CNN "Link"
+F10 "NO" 1200 780 50 H I C CNN "ASSEMBLY"
+F11 "YES" 1200 780 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+S -20 90 20 50 0 1 0 N
+X 1 1 0 -50 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Template
+#
+DEF Template TP 0 0 N Y 1 F N
+F0 "TP" 100 100 50 H V C CNN
+F1 "Template" 620 390 50 H I C CNN
+F2 "" 550 550 50 H I C CNN
+F3 "" 550 550 50 H I C CNN
+F4 "N/A" 100 -100 50 H V C CNN "VAL"
+F5 "N/A" 1200 780 50 H I C CNN "Manufacturer_PN"
+F6 "N/A" 1200 780 50 H I C CNN "Manufacturer"
+F7 "N/A" 1200 780 50 H I C CNN "Price for 1"
+F8 "N/A" 1200 780 50 H I C CNN "Price for 100"
+F9 "N/A" 1200 780 50 H I C CNN "Link"
+F10 "N/A" 1200 780 50 H I C CNN "ASSEMBLY"
+F11 "N/A" 1200 780 50 H I C CNN "BOM_IGNORE"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+ R_*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library
